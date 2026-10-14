@@ -1,0 +1,24 @@
+BETÃO SCORES — CONTACT FORM PATCH (GitHub Pages)
+
+Replace ONLY these three files in the root of your existing GitHub repository:
+  contact.html
+  main.js
+  privacy.html
+
+IMPORTANT: Direct message delivery requires a form service. GitHub Pages cannot deliver messages by itself.
+
+1. Create a free Formspree account at https://formspree.io/
+2. Create a new form and set the recipient to your support email.
+3. Verify your receiving email and activate the form as instructed by Formspree.
+4. Copy the form endpoint, which looks like https://formspree.io/f/abcdefgh
+5. Open main.js and find:
+   const FORM_ENDPOINT = 'https://formspree.io/f/REPLACE_WITH_YOUR_FORM_ID';
+   Replace the entire quoted URL with your actual Formspree endpoint.
+6. Upload contact.html, main.js and privacy.html to your repository root, overwriting the existing files.
+7. Wait for GitHub Pages to publish, then submit a test message. Check the Formspree dashboard and your receiving inbox.
+
+The button reads SEND MESSAGE. No email application opens. The form shows a success message ONLY after the delivery provider confirms HTTP success; otherwise an error is shown. Until you configure the endpoint, the form clearly reports that delivery is not configured.
+
+Why privacy.html changes: the form now transfers name, email, topic and message to Formspree, a third-party provider. Please review the final policy against your actual practices and Formspree settings.
+
+Free plan limits and availability are subject to Formspree's current terms.

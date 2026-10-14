@@ -41,35 +41,52 @@
 
   const form = document.getElementById('contact-form');
   if (form) {
+    // Create a free Formspree form at https://formspree.io/ and paste its endpoint below.
+    // Never put private API keys in client-side JavaScript.
+    const FORM_ENDPOINT = 'https://formspree.io/f/REPLACE_WITH_YOUR_FORM_ID';
     const status = document.getElementById('form-status');
-    const CONTACT_EMAIL = ''; // Set to a real, verified inbox before publishing.
-    const getMessage = () => {
-      if (!form.reportValidity()) return null;
-      const name = form.elements.namedItem('name').value.trim();
-      const email = form.elements.namedItem('email').value.trim();
-      const topic = form.elements.namedItem('topic').value;
-      const message = form.elements.namedItem('message').value.trim();
-      if (!name || !email || !message) { status.textContent = 'Please complete every required field.'; return null; }
-      return {subject:`Betão Scores — ${topic}`, body:`Name: ${name}\nEmail: ${email}\nTopic: ${topic}\n\n${message}`};
-    };
-    form.addEventListener('submit', event => {
+    const submit = form.querySelector('button[type="submit"]');
+    form.addEventListener('submit', async event => {
       event.preventDefault();
-      const data = getMessage(); if (!data) return;
-      status.textContent = CONTACT_EMAIL ? 'Opening your email app. Please send the message there.' : 'Opening an email draft. Add the recipient address and send it from your email app.';
-      window.location.href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(data.subject)}&body=${encodeURIComponent(data.body)}`;
-    });
-    const copy = document.getElementById('copy-message');
-    copy?.addEventListener('click', async () => {
-      const data = getMessage(); if (!data) return;
-      const text = `${data.subject}\n\n${data.body}`;
+      if (!form.reportValidity()) return;
+      if (FORM_ENDPOINT.includes('REPLACE_WITH_YOUR_FORM_ID')) {
+        status.textContent = 'Contact delivery is not configured yet. The site owner must add their Formspree form ID.';
+        return;
+      }
+      const fields = new FormData(form);
+      const name = String(fields.get('name') || '').trim();
+      const email = String(fields.get('email') || '').trim();
+      const message = String(fields.get('message') || '').trim();
+      if (!name || !email || !message) {
+        status.textContent = 'Please complete all required fields.';
+        return;
+      }
+      fields.set('_subject', `Betão Scores support — ${fields.get('topic') || 'General inquiry'}`);
+      submit.disabled = true;
+      submit.textContent = 'SENDING…';
+      status.textContent = 'Sending your message…';
       try {
-        if (navigator.clipboard && window.isSecureContext) await navigator.clipboard.writeText(text);
-        else {
-          const temp = document.createElement('textarea'); temp.value = text; temp.style.position='fixed'; temp.style.opacity='0'; document.body.appendChild(temp); temp.select();
-          if (!document.execCommand('copy')) throw Error('Clipboard unavailable'); temp.remove();
+        const response = await fetch(FORM_ENDPOINT, {
+          method: 'POST',
+          body: fields,
+          headers: { Accept: 'application/json' }
+        });
+        if (!response.ok) {
+          let detail = '';
+          try {
+            const data = await response.json();
+            if (Array.isArray(data.errors)) detail = data.errors.map(e => e.message).filter(Boolean).join(' ');
+          } catch (_) { /* Some error responses are not JSON. */ }
+          throw new Error(detail || `The service returned HTTP ${response.status}.`);
         }
-        status.textContent = 'Message copied. It has not been sent.';
-      } catch (_) { status.textContent = 'Copy is unavailable here. Select the text in your fields to copy it.'; }
+        form.reset();
+        status.textContent = 'Message sent successfully. Thank you for contacting Betão Scores!';
+      } catch (error) {
+        status.textContent = `Your message could not be sent. Please try again. ${error.message || ''}`.trim();
+      } finally {
+        submit.disabled = false;
+        submit.textContent = 'SEND MESSAGE ↗';
+      }
     });
   }
 })();
