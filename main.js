@@ -43,13 +43,13 @@
   if (form) {
     // Create a free Formspree form at https://formspree.io/ and paste its endpoint below.
     // Never put private API keys in client-side JavaScript.
-    const FORM_ENDPOINT = 'https://formspree.io/f/https://formspree.io/f/xwlvrzkl';
+    const FORM_ENDPOINT = 'https://formspree.io/f/xwlvrzkl';
     const status = document.getElementById('form-status');
     const submit = form.querySelector('button[type="submit"]');
     form.addEventListener('submit', async event => {
       event.preventDefault();
       if (!form.reportValidity()) return;
-      if (FORM_ENDPOINT.includes('https://formspree.io/f/xwlvrzkl')) {
+      if (FORM_ENDPOINT.includes('REPLACE_WITH_YOUR_FORM_ID')) {
         status.textContent = 'Contact delivery is not configured yet. The site owner must add their Formspree form ID.';
         return;
       }
