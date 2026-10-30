@@ -10,7 +10,35 @@ const id=g=>g.league+':'+g.id;
 function filtered(){return games.filter(g=>(league==='all'||(league==='favorites'?favorites.includes(id(g)):g.league===league))&&(!search||[g.home.name,g.away.name,g.name].join(' ').toLowerCase().includes(search))).sort((a,b)=>new Date(b.date||0)-new Date(a.date||0))}
 function renderList(){list.replaceChildren();const arr=filtered();if(!arr.length){list.append(el('div','api-empty',games.length?'No games match your filters.':'No API results yet. Add the GitHub secret and run the workflow to load real matches.'));$('api-detail').replaceChildren(el('div','api-placeholder','Choose a game when data becomes available.'));return}for(const g of arr){const b=el('button','api-game'+(id(g)===selected?' is-selected':''));b.type='button';const top=el('div','api-game-top');top.append(el('span','api-league',names[g.league]||g.league.toUpperCase()),el('span','api-game-time',date(g.date)));b.append(top);const main=el('div','api-game-main'),teams=el('div','api-team-names'),scores=el('div','api-scores');for(const team of [g.away,g.home]){const row=el('div','api-team-line');if(team.logo&&/^https:\/\//.test(team.logo)){const img=el('img');img.src=team.logo;img.alt='';img.loading='lazy';row.append(img)}row.append(el('span','',team.name));teams.append(row);scores.append(el('strong','',clean(team.score,'–')))}main.append(teams,scores);b.append(main);const foot=el('div','api-game-bottom');foot.append(el('span','',clean(g.status,'Status unknown')),el('span','',favorites.includes(id(g))?'★ Saved':'View details →'));b.append(foot);b.addEventListener('click',()=>{selected=id(g);renderList();renderDetail(g);if(matchMedia('(max-width:850px)').matches)$('api-detail').scrollIntoView({behavior:'smooth',block:'start'})});list.append(b)}if(!arr.some(g=>id(g)===selected)){selected=id(arr[0]);renderDetail(arr[0])}}
 function renderDetail(g){const d=$('api-detail');d.replaceChildren();const h=el('div','api-detail-head');h.append(el('span','api-detail-kicker',(names[g.league]||g.league.toUpperCase())+' / MATCH DETAILS'));const fav=el('button','api-fav'+(favorites.includes(id(g))?' is-saved':''),favorites.includes(id(g))?'★ Saved':'☆ Save match');fav.type='button';fav.addEventListener('click',()=>{const key=id(g);favorites=favorites.includes(key)?favorites.filter(x=>x!==key):[...favorites,key].slice(-100);favSave();renderList();renderDetail(g)});h.append(fav);d.append(h,el('h3','',g.name||g.away.name+' vs '+g.home.name));const score=el('div','api-detail-score');for(const team of [g.away,g.home]){const side=el('div','api-detail-side');side.append(el('span','',team.name),el('strong','',clean(team.score,'–')));score.append(side);if(team===g.away)score.append(el('span','api-detail-vs','—'))}d.append(score);const meta=el('div','api-detail-meta');for(const [label,value] of [['Match date',date(g.date)],['Status',clean(g.status)],['Venue',clean(g.venue)],['League',names[g.league]||g.league]]){const item=el('div');item.append(el('small','',label),el('strong','',value));meta.append(item)}d.append(meta);
-if(Array.isArray(g.periods)&&g.periods.length){const wrap=el('div','api-periods');wrap.append(el('h4','','Scoring by period (API data)'));for(const p of g.periods){const row=el('div','api-period');row.append(el('span','',clean(p.label,'Period')),el('strong','',clean(p.away,'–')),el('strong','',clean(p.home,'–')));const bars=el('div');const a=Number(p.away),h=Number(p.home);const total=a+h;for(const v of [a,h]){const bar=el('i');bar.style.width=total>0&&Number.isFinite(v)?Math.max(0,100*v/total)+'%':'50%';bars.append(bar)}row.append(bars);wrap.append(row)}d.append(wrap)}else d.append(el('p','','Detailed period statistics were not provided by this API response.'))}
+if(Array.isArray(g.periods)&&g.periods.length){const wrap=el('div','api-periods');wrap.append(el('h4','','Scoring by period (API data)'));for(const p of g.periods){const row=el('div','api-period');row.append(el('span','',clean(p.label,'Period')),el('strong','',clean(p.away,'–')),el('strong','',clean(p.home,'–')));const bars=el('div');const a=Number(p.away),h=Number(p.home);const total=a+h;for(const v of [a,h]){const bar=el('i');bar.style.width=total>0&&Number.isFinite(v)?Math.max(0,100*v/total)+'%':'50%';bars.append(bar)}row.append(bars);wrap.append(row)}d.append(wrap)}else d.append(el('p','','Detailed period statistics were not provided by this API response.'));
+renderAnalytics(g,d);
+}
+function renderAnalytics(g,d){
+ const section=el('section','api-analytics');
+ section.append(el('h4','','Match analytics · available results'));
+ section.append(el('p','','Calculated from completed matches in the downloaded snapshot. Not predictions or live statistics.'));
+ const isFinal=x=>/final|finished|completed/i.test(String(x.status||''))&&Number.isFinite(Number(x.home.score))&&Number.isFinite(Number(x.away.score));
+ const summary=(name)=>{
+  const recent=games.filter(x=>x.league===g.league&&isFinal(x)&&(x.home.name===name||x.away.name===name))
+    .sort((a,b)=>new Date(b.date)-new Date(a.date)).slice(0,5);
+  let wins=0,draws=0,losses=0,scored=0,conceded=0;
+  for(const x of recent){
+   const home=x.home.name===name,own=Number(home?x.home.score:x.away.score),opp=Number(home?x.away.score:x.home.score);
+   scored+=own;conceded+=opp;
+   if(own>opp)wins++;else if(own<opp)losses++;else draws++;
+  }
+  return {name,n:recent.length,wins,draws,losses,scored,conceded};
+ };
+ const teams=[summary(g.away.name),summary(g.home.name)];
+ for(const t of teams){
+  const block=el('div','api-detail-meta');
+  const fields=[['Team',t.name],['Completed games in cache',t.n],['Record (W-D-L)',t.n?`${t.wins}-${t.draws}-${t.losses}`:'No data'],['Avg scored',t.n?(t.scored/t.n).toFixed(1):'—'],['Avg conceded',t.n?(t.conceded/t.n).toFixed(1):'—']];
+  for(const [label,value] of fields){const item=el('div');item.append(el('small','',label),el('strong','',String(value)));block.append(item)}
+  section.append(block);
+ }
+ if(!teams.some(t=>t.n))section.append(el('p','','No completed games for these teams in the current snapshot. Historical form needs more archived results.'));
+ d.append(section);
+}
 for(const b of document.querySelectorAll('[data-api-league]'))b.addEventListener('click',()=>{league=b.dataset.apiLeague;document.querySelectorAll('[data-api-league]').forEach(x=>{x.classList.toggle('is-active',x===b);x.setAttribute('aria-pressed',String(x===b))});selected='';renderList()});$('api-search').addEventListener('input',e=>{search=e.target.value.trim().toLowerCase();selected='';renderList()});
 fetch('data/matches.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(data=>{games=Array.isArray(data.games)?data.games.filter(g=>g&&names[g.league]&&g.id&&g.home&&g.away):[];const fetched=data.generatedAt?date(data.generatedAt):'not yet';const err=Array.isArray(data.errors)&&data.errors.length?' · Some leagues failed to update':'';$('api-status').textContent=games.length?`${games.length} games cached · Last collected: ${fetched} · Daily snapshot, not live${err}`:data.configured===false?'API not connected yet. Configure the REALTIME_SPORTS_API_KEY secret in GitHub Actions.':`No games available from the API. Last checked: ${fetched}${err}`;renderList()}).catch(e=>{$('api-status').textContent='Could not load cached API data: '+e.message;renderList()});
 })();
