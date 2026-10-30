@@ -15,8 +15,8 @@ renderAnalytics(g,d);
 }
 function renderAnalytics(g,d){
  const section=el('section','api-analytics');
- section.append(el('h4','','Match analytics · available results'));
- section.append(el('p','','Calculated from completed matches in the downloaded snapshot. Not predictions or live statistics.'));
+ section.append(el('h4','','TEAM FORM & SCORE ANALYTICS'));
+ section.append(el('p','api-analytics-note','Real score-based calculations from completed games in the downloaded dataset. This is not a prediction.'));const leagueGames=games.filter(x=>x.league===g.league);const completed=leagueGames.filter(x=>/final|finished|completed/i.test(String(x.status||'')));section.append(el('p','api-analytics-meta',`${leagueGames.length} games in ${names[g.league]||g.league} snapshot · ${completed.length} marked final`));
  const isFinal=x=>/final|finished|completed/i.test(String(x.status||''))&&Number.isFinite(Number(x.home.score))&&Number.isFinite(Number(x.away.score));
  const summary=(name)=>{
   const recent=games.filter(x=>x.league===g.league&&isFinal(x)&&(x.home.name===name||x.away.name===name))
