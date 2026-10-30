@@ -1,0 +1,482 @@
+{
+  "configured": true,
+  "generatedAt": "2026-10-30T17:31:21.794055Z",
+  "games": [
+    {
+      "id": "401873023",
+      "league": "nfl",
+      "name": "Carolina Panthers at Green Bay Packers",
+      "date": "2026-10-30T00:15Z",
+      "status": "Final",
+      "venue": "Lambeau Field",
+      "home": {
+        "name": "Green Bay Packers",
+        "score": 27,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGBE9HFFQR"
+      },
+      "away": {
+        "name": "Carolina Panthers",
+        "score": 19,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAEwbSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401873026",
+      "league": "nfl",
+      "name": "Baltimore Ravens at Buffalo Bills",
+      "date": "2026-11-01T18:00Z",
+      "status": "Sun, November 1st at 1:00 PM EST",
+      "venue": "Highmark Stadium",
+      "home": {
+        "name": "Buffalo Bills",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAVgPSkoYVg"
+      },
+      "away": {
+        "name": "Baltimore Ravens",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAUwFSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401873031",
+      "league": "nfl",
+      "name": "Tennessee Titans at Cincinnati Bengals",
+      "date": "2026-11-01T18:00Z",
+      "status": "Sun, November 1st at 1:00 PM EST",
+      "venue": "Paycor Stadium",
+      "home": {
+        "name": "Cincinnati Bengals",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAEQHSkoYVg"
+      },
+      "away": {
+        "name": "Tennessee Titans",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGF0gHSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401873024",
+      "league": "nfl",
+      "name": "Arizona Cardinals at Dallas Cowboys",
+      "date": "2026-11-01T18:00Z",
+      "status": "Sun, November 1st at 1:00 PM EST",
+      "venue": "AT&T Stadium",
+      "home": {
+        "name": "Dallas Cowboys",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGB0wFSkoYVg"
+      },
+      "away": {
+        "name": "Arizona Cardinals",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAl8ASkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401873030",
+      "league": "nfl",
+      "name": "Minnesota Vikings at Detroit Lions",
+      "date": "2026-11-01T18:00Z",
+      "status": "Sun, November 1st at 1:00 PM EST",
+      "venue": "Ford Field",
+      "home": {
+        "name": "Detroit Lions",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGB0gdSkoYVg"
+      },
+      "away": {
+        "name": "Minnesota Vikings",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGDkQHSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401873029",
+      "league": "nfl",
+      "name": "Las Vegas Raiders at New York Jets",
+      "date": "2026-11-01T18:00Z",
+      "status": "Sun, November 1st at 1:00 PM EST",
+      "venue": "MetLife Stadium",
+      "home": {
+        "name": "New York Jets",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGDVQDSkoYVg"
+      },
+      "away": {
+        "name": "Las Vegas Raiders",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGD1tHFFQR"
+      },
+      "periods": []
+    },
+    {
+      "id": "401873027",
+      "league": "nfl",
+      "name": "Cleveland Browns at Pittsburgh Steelers",
+      "date": "2026-11-01T18:00Z",
+      "status": "Sun, November 1st at 1:00 PM EST",
+      "venue": "Acrisure Stadium",
+      "home": {
+        "name": "Pittsburgh Steelers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGE0QdSkoYVg"
+      },
+      "away": {
+        "name": "Cleveland Browns",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAEEMSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401873025",
+      "league": "nfl",
+      "name": "Atlanta Falcons at Tampa Bay Buccaneers",
+      "date": "2026-11-01T18:00Z",
+      "status": "Sun, November 1st at 1:00 PM EST",
+      "venue": "Raymond James Stadium",
+      "home": {
+        "name": "Tampa Bay Buccaneers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGF09HFFQR"
+      },
+      "away": {
+        "name": "Atlanta Falcons",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAlkFSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401873028",
+      "league": "nfl",
+      "name": "Indianapolis Colts at Jacksonville Jaguars",
+      "date": "2026-11-01T18:00Z",
+      "status": "Sun, November 1st at 1:00 PM EST",
+      "venue": "EverBank Stadium",
+      "home": {
+        "name": "Jacksonville Jaguars",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGCUwRSkoYVg"
+      },
+      "away": {
+        "name": "Indianapolis Colts",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGCkMNSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401873032",
+      "league": "nfl",
+      "name": "Los Angeles Chargers at Los Angeles Rams",
+      "date": "2026-11-01T21:05Z",
+      "status": "Sun, November 1st at 4:05 PM EST",
+      "venue": "SoFi Stadium",
+      "home": {
+        "name": "Los Angeles Rams",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGD0wbSkoYVg"
+      },
+      "away": {
+        "name": "Los Angeles Chargers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGD0wKSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401873033",
+      "league": "nfl",
+      "name": "Kansas City Chiefs at Denver Broncos",
+      "date": "2026-11-01T21:25Z",
+      "status": "Sun, November 1st at 4:25 PM EST",
+      "venue": "Empower Field at Mile High",
+      "home": {
+        "name": "Denver Broncos",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGB0gHSkoYVg"
+      },
+      "away": {
+        "name": "Kansas City Chiefs",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGCE5HFFQR"
+      },
+      "periods": []
+    },
+    {
+      "id": "401873034",
+      "league": "nfl",
+      "name": "New England Patriots at Miami Dolphins",
+      "date": "2026-11-01T21:25Z",
+      "status": "Sun, November 1st at 4:25 PM EST",
+      "venue": "Hard Rock Stadium",
+      "home": {
+        "name": "Miami Dolphins",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGDkQISkoYVg"
+      },
+      "away": {
+        "name": "New England Patriots",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGDUhHFFQR"
+      },
+      "periods": []
+    },
+    {
+      "id": "401873035",
+      "league": "nfl",
+      "name": "Philadelphia Eagles at Washington Commanders",
+      "date": "2026-11-02T01:20Z",
+      "status": "Sun, November 1st at 8:20 PM EST",
+      "venue": "Northwest Stadium",
+      "home": {
+        "name": "Washington Commanders",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGFF4BSkoYVg"
+      },
+      "away": {
+        "name": "Philadelphia Eagles",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGE0UASkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401873036",
+      "league": "nfl",
+      "name": "Chicago Bears at Seattle Seahawks",
+      "date": "2026-11-03T01:15Z",
+      "status": "Mon, November 2nd at 8:15 PM EST",
+      "venue": "Lumen Field",
+      "home": {
+        "name": "Seattle Seahawks",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGEEgISkoYVg"
+      },
+      "away": {
+        "name": "Chicago Bears",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAEUASkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909277",
+      "league": "nba",
+      "name": "Charlotte Hornets at Washington Wizards",
+      "date": "2026-10-30T23:00Z",
+      "status": "Fri, October 30th at 7:00 PM EDT",
+      "venue": "Capital One Arena",
+      "home": {
+        "name": "Washington Wizards",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGFF4BSkoYVg"
+      },
+      "away": {
+        "name": "Charlotte Hornets",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAEUISkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909278",
+      "league": "nba",
+      "name": "Chicago Bulls at Boston Celtics",
+      "date": "2026-10-30T23:30Z",
+      "status": "Fri, October 30th at 7:30 PM EDT",
+      "venue": "TD Garden",
+      "home": {
+        "name": "Boston Celtics",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAUIaSkoYVg"
+      },
+      "away": {
+        "name": "Chicago Bulls",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAEUASkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909279",
+      "league": "nba",
+      "name": "Detroit Pistons at Brooklyn Nets",
+      "date": "2026-10-30T23:30Z",
+      "status": "Fri, October 30th at 7:30 PM EDT",
+      "venue": "Barclays Center",
+      "home": {
+        "name": "Brooklyn Nets",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAUYHSkoYVg"
+      },
+      "away": {
+        "name": "Detroit Pistons",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGB0gdSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909280",
+      "league": "nba",
+      "name": "New York Knicks at Philadelphia 76ers",
+      "date": "2026-10-30T23:30Z",
+      "status": "Fri, October 30th at 7:30 PM EDT",
+      "venue": "Xfinity Mobile Arena",
+      "home": {
+        "name": "Philadelphia 76ers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0UASkoYVg"
+      },
+      "away": {
+        "name": "New York Knicks",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDVRHFFQR"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909281",
+      "league": "nba",
+      "name": "Orlando Magic at Toronto Raptors",
+      "date": "2026-10-30T23:30Z",
+      "status": "Fri, October 30th at 7:30 PM EDT",
+      "venue": "Scotiabank Arena",
+      "home": {
+        "name": "Toronto Raptors",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGF0IbSkoYVg"
+      },
+      "away": {
+        "name": "Orlando Magic",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDF8FSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909282",
+      "league": "nba",
+      "name": "Indiana Pacers at Miami Heat",
+      "date": "2026-10-31T00:00Z",
+      "status": "Fri, October 30th at 8:00 PM EDT",
+      "venue": "Kaseya Center",
+      "home": {
+        "name": "Miami Heat",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQISkoYVg"
+      },
+      "away": {
+        "name": "Indiana Pacers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGCkMNSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909283",
+      "league": "nba",
+      "name": "Houston Rockets at Dallas Mavericks",
+      "date": "2026-10-31T00:00Z",
+      "status": "Fri, October 30th at 8:00 PM EDT",
+      "venue": "American Airlines Center",
+      "home": {
+        "name": "Dallas Mavericks",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGB0wFSkoYVg"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGC0IcSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909284",
+      "league": "nba",
+      "name": "LA Clippers at Minnesota Timberwolves",
+      "date": "2026-10-31T00:00Z",
+      "status": "Fri, October 30th at 8:00 PM EDT",
+      "venue": "Target Center",
+      "home": {
+        "name": "Minnesota Timberwolves",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQHSkoYVg"
+      },
+      "away": {
+        "name": "LA Clippers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGD0wKSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909285",
+      "league": "nba",
+      "name": "Los Angeles Lakers at Golden State Warriors",
+      "date": "2026-10-31T02:00Z",
+      "status": "Fri, October 30th at 10:00 PM EDT",
+      "venue": "Chase Center",
+      "home": {
+        "name": "Golden State Warriors",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGBF5HFFQR"
+      },
+      "away": {
+        "name": "Los Angeles Lakers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGD0wFSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909286",
+      "league": "nba",
+      "name": "Denver Nuggets at Phoenix Suns",
+      "date": "2026-10-31T02:00Z",
+      "status": "Fri, October 30th at 10:00 PM EDT",
+      "venue": "Mortgage Matchup Center",
+      "home": {
+        "name": "Phoenix Suns",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0URSkoYVg"
+      },
+      "away": {
+        "name": "Denver Nuggets",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGB0gHSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401908046",
+      "league": "mlb",
+      "name": "Milwaukee Brewers at Tampa Bay Rays",
+      "date": "2026-10-29T00:00Z",
+      "status": "Final",
+      "venue": "Tropicana Field",
+      "home": {
+        "name": "Tampa Bay Rays",
+        "score": 1,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR4NWF9AUlxGF09HFFQR"
+      },
+      "away": {
+        "name": "Milwaukee Brewers",
+        "score": 4,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR4NWF9AUlxGDkQFSkoYVg"
+      },
+      "periods": []
+    }
+  ],
+  "errors": []
+}
