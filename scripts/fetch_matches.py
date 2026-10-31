@@ -98,6 +98,31 @@ def main():
             new.extend(previous[league])
             print(f'{league}: request failed ({type(exc).__name__})')
         time.sleep(1.2) # Free tier: <= 1 request/second.
+    # Retain historical games across daily snapshots without extra API requests.
+    # A daily endpoint usually contains only the current schedule; replacing it
+    # would erase completed matches needed for meaningful form statistics.
+    # Keep one record per (league, id); newest API result wins.
+    merged={}
+    for g in cache.get('games',[]):
+        if isinstance(g,dict) and g.get('id') and g.get('league'):
+            merged[(g['league'],str(g['id']))]=g
+    for g in new:
+        merged[(g['league'],str(g['id']))]=g
+    cutoff=now-dt.timedelta(days=550)
+    grouped={league:[] for league,_ in LEAGUES}
+    for g in merged.values():
+        if g.get('league') not in grouped:continue
+        try:
+            event_date=dt.datetime.fromisoformat(g.get('date','').replace('Z','+00:00'))
+            if event_date.tzinfo is None:event_date=event_date.replace(tzinfo=dt.timezone.utc)
+            if event_date<cutoff:continue
+        except (ValueError,TypeError,AttributeError):continue
+        grouped[g['league']].append(g)
+    # 900 games per league prevents indefinite repository growth.
+    archived=[]
+    for league in grouped:
+        archived.extend(sorted(grouped[league],key=lambda x:x.get('date',''),reverse=True)[:900])
+    new=archived
     # Only mark snapshot refreshed if at least one league actually updated.
     generated=now.isoformat().replace('+00:00','Z') if successes else cache.get('generatedAt')
     write(CACHE,{'configured':True,'generatedAt':generated,'games':new,'errors':errors})
