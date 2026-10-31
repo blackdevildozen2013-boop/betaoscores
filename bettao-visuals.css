@@ -1,0 +1,32 @@
+/* Sport-specific transition animation and cinematic model-insight fire */
+.bettao-sport-flyover{position:fixed;z-index:1800;left:50%;top:39%;width:136px;height:136px;pointer-events:none;filter:drop-shadow(0 24px 20px #0009);transform-origin:center;will-change:transform,opacity}
+.bettao-sport-flyover svg{width:100%;height:100%;overflow:visible;filter:drop-shadow(0 0 18px #ffa04a44)}
+.bettao-sport-flyover::after{content:"";position:absolute;left:20%;right:20%;bottom:-22px;height:12px;border-radius:50%;background:#0009;filter:blur(8px);animation:bettaoShadow 1.45s ease-in-out both}
+.bettao-sport-flyover.soccer{animation:bettaoSoccer 1.45s cubic-bezier(.22,.75,.3,1) both}
+.bettao-sport-flyover.basketball{animation:bettaoBasketball 1.5s cubic-bezier(.22,.65,.3,1) both}
+.bettao-sport-flyover.baseball{animation:bettaoBaseball 1.35s cubic-bezier(.23,.72,.2,1) both}
+.bettao-sport-flyover.hockey{animation:bettaoHockey 1.35s cubic-bezier(.18,.8,.35,1) both}
+.bettao-sport-flyover.american{animation:bettaoAmerican 1.5s cubic-bezier(.24,.65,.25,1) both}
+@keyframes bettaoSoccer{0%{opacity:0;transform:translate(-280px,140px) rotate(-240deg) scale(.35)}22%{opacity:1}67%{opacity:1;transform:translate(-30px,-32px) rotate(320deg) scale(1.15)}85%{opacity:1;transform:translate(-8px,0) rotate(355deg) scale(.97)}100%{opacity:0;transform:translate(65px,10px) rotate(430deg) scale(.7)}}
+@keyframes bettaoBasketball{0%{opacity:0;transform:translate(-50%,-190px) scale(.62) rotate(-30deg)}18%{opacity:1}39%{transform:translate(-50%,32px) scale(1.16,.84) rotate(60deg)}57%{transform:translate(-50%,-105px) scale(.94,1.04) rotate(140deg)}77%{opacity:1;transform:translate(-50%,20px) scale(1.1,.88) rotate(220deg)}100%{opacity:0;transform:translate(-50%,-40px) scale(.85) rotate(280deg)}}
+@keyframes bettaoBaseball{0%{opacity:0;transform:translate(-360px,110px) scale(.28) rotate(-220deg)}30%{opacity:1;transform:translate(-100px,-90px) scale(.9) rotate(80deg)}65%{opacity:1;transform:translate(40px,-125px) scale(1.2) rotate(250deg)}100%{opacity:0;transform:translate(230px,130px) scale(.55) rotate(540deg)}}
+@keyframes bettaoHockey{0%{opacity:0;transform:translate(-380px,65px) scale(.5) rotate(-10deg)}20%{opacity:1}65%{opacity:1;transform:translate(15px,10px) scale(1.13) rotate(14deg)}85%{transform:translate(32px,5px) scale(.96) rotate(3deg)}100%{opacity:0;transform:translate(230px,-30px) scale(.7) rotate(22deg)}}
+@keyframes bettaoAmerican{0%{opacity:0;transform:translate(-310px,160px) rotate(-150deg) scale(.35)}25%{opacity:1}68%{opacity:1;transform:translate(-30px,-85px) rotate(380deg) scale(1.18)}100%{opacity:0;transform:translate(200px,40px) rotate(720deg) scale(.7)}}
+@keyframes bettaoShadow{0%,100%{opacity:0;transform:scale(.5)}40%,75%{opacity:.6;transform:scale(1)}}
+.hot-analytics-banner{position:relative;isolation:isolate;display:flex;align-items:center;justify-content:space-between;gap:15px;min-height:94px;margin:17px 0 13px;padding:15px 22px;overflow:hidden;border-radius:17px;border:1px solid #ffb15c68;background:radial-gradient(ellipse at 18% 100%,#8e290f70 0%,transparent 55%),linear-gradient(115deg,#261222 0%,#151728 55%,#101c2b 100%);box-shadow:inset 0 1px 0 #ffffff17,0 15px 30px #0003,0 0 26px #ff85231b}
+.hot-analytics-banner::before{content:"";position:absolute;inset:0;background:linear-gradient(115deg,transparent 24%,#ffc88914 49%,transparent 74%);transform:translateX(-140%);animation:bettaoFireSheen 6s ease-in-out infinite;pointer-events:none;z-index:0}
+.hot-analytics-banner::after{content:"";position:absolute;inset:auto 0 0;height:2px;background:linear-gradient(90deg,transparent,#ff722f,#ffda88,#ff6c2e,transparent);box-shadow:0 0 18px #ff6b26;opacity:.85}
+.hot-analytics-banner .hot-fire-canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:0}
+.hot-analytics-banner .hot-content{position:relative;z-index:2;display:flex;align-items:center;gap:13px}
+.hot-analytics-banner .hot-emblem{width:43px;height:43px;flex:0 0 43px;display:grid;place-items:center;border:1px solid #ffd58c66;border-radius:13px;background:radial-gradient(circle at 40% 35%,#ffb86066,#e85c1722 65%);box-shadow:0 0 23px #ff781b70,inset 0 1px 0 #ffdc9666}
+.hot-analytics-banner .hot-emblem svg{width:27px;height:27px;filter:drop-shadow(0 0 7px #ff9b38)}
+.hot-analytics-banner .hot-heading{margin:0;font-size:clamp(16px,2.4vw,22px);line-height:1.05;letter-spacing:.12em;font-weight:950;color:#fff4db;text-shadow:0 0 17px #ff9c55b0}
+.hot-analytics-banner .hot-subtitle{margin:5px 0 0;font-size:10px;letter-spacing:.045em;color:#e1bca5}
+.hot-analytics-banner .hot-signal{position:relative;z-index:2;display:flex;align-items:center;gap:7px;white-space:nowrap;color:#ffcf9e;font-size:9px;letter-spacing:.12em;font-weight:800}
+.hot-analytics-banner .hot-signal i{display:inline-block;width:7px;height:7px;border-radius:50%;background:#ffb354;box-shadow:0 0 12px #ff6c20;animation:mcStarPulse 2.5s ease-in-out infinite}
+@keyframes bettaoFireSheen{0%,55%{transform:translateX(-140%)}100%{transform:translateX(140%)}}
+@media(max-width:560px){.bettao-sport-flyover{width:92px;height:92px;top:35%}.hot-analytics-banner{min-height:84px;padding:12px 14px}.hot-analytics-banner .hot-heading{font-size:16px}.hot-analytics-banner .hot-signal{display:none}.hot-analytics-banner .hot-emblem{width:37px;height:37px;flex-basis:37px}}
+@media(prefers-reduced-motion:reduce){.bettao-sport-flyover{display:none!important}.hot-analytics-banner::before,.hot-analytics-banner .hot-signal i{animation:none!important}}
+
+@keyframes bettaoHotPulse{0%,100%{opacity:.5}50%{opacity:1}}
+.hot-analytics-banner .hot-signal i{animation:bettaoHotPulse 2.5s ease-in-out infinite}

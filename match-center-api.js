@@ -26,15 +26,15 @@ const teamInfo=Object.fromEntries(demoTeams.map(([name,attack,defense])=>[name,{
 const makeDemo=()=>{
  const now=new Date();now.setHours(19,45,0,0);
  const pairs=[[0,1],[2,3],[4,5],[6,7],[8,9],[0,2],[1,4],[3,6],[5,8],[7,9],[2,4],[0,6]];
- const fixtures=pairs.map(([a,b],i)=>{const d=new Date(now);d.setDate(d.getDate()+Math.floor(i/3)+1);return {id:'demo-'+i,league:'demo',name:demoTeams[a][0]+' vs '+demoTeams[b][0],date:d.toISOString(),status:'Scheduled · simulated',venue:'Fictional Premier Division',home:{name:demoTeams[a][0],score:null},away:{name:demoTeams[b][0],score:null},demo:true}});
+ const fixtures=pairs.map(([a,b],i)=>{const d=new Date(now);d.setDate(d.getDate()+Math.floor(i/3)+1);return {id:'demo-'+i,league:'demo',name:demoTeams[a][0]+' vs '+demoTeams[b][0],date:d.toISOString(),status:'Scheduled · model-generated',venue:'Football Lab League · DEMO',home:{name:demoTeams[a][0],score:null},away:{name:demoTeams[b][0],score:null},demo:true}});
  const history=[];
- // Deterministic fictional results, never mixed into the real sports feed.
+ // Deterministic demo results, never mixed into the real sports feed.
  for(let round=0;round<16;round++)for(let i=0;i<10;i++){
   const a=(i+round*3)%10,b=(i+round*3+3+round%5)%10;if(a===b)continue;
   const home=demoTeams[a],away=demoTeams[b],r=random(hash('bettao-fiction-'+round+'-'+i));
   const h=poisson(clamp(1.48*home[1]/away[2],.4,3.2),r),v=poisson(clamp(1.12*away[1]/home[2],.3,3.1),r);
   const d=new Date(now);d.setDate(d.getDate()-round*5-i-2);
-  history.push({id:'historical-'+round+'-'+i,league:'demo',name:away[0]+' at '+home[0],date:d.toISOString(),status:'Final · simulated',venue:'Fictional Premier Division',home:{name:home[0],score:h},away:{name:away[0],score:v},demo:true,archive:true});
+  history.push({id:'historical-'+round+'-'+i,league:'demo',name:away[0]+' at '+home[0],date:d.toISOString(),status:'Final · model-generated',venue:'Football Lab League · DEMO',home:{name:home[0],score:h},away:{name:away[0],score:v},demo:true,archive:true});
  }
  return {fixtures,history};
 };
@@ -73,7 +73,7 @@ const model=(g,mode)=>{
   const f=.73;pH=pH*f+(1-f)*(demo?1/3:.5);pA=pA*f+(1-f)*(demo?1/3:.5);pD=demo?pD*f+(1-f)/3:0;
  }
  const total=pH+pA+pD;pH/=total;pA/=total;pD/=total;
- const confidence=demo?'SIMULATED':count>=6?'LIMITED DATA':'LOW DATA';
+ const confidence=demo?'MODEL-GENERATED':count>=6?'LIMITED DATA':'LOW DATA';
  return {h,a,home,away,pH,pD,pA,over,btts,zeroH,zeroA,confidence,weight,base,historyCount:count};
 };
 function matches(){const source=league==='demo'?[...DEMO.fixtures,...DEMO.history]:allGames();let arr=source.filter(g=>(league==='all'||league==='favorites'?league!=='favorites'||fav.includes(uid(g)):g.league===league)&&(!search||[g.home.name,g.away.name,g.name].join(' ').toLowerCase().includes(search))&&(state==='all'||(state==='final'?isFinal(g):!isFinal(g))));
@@ -83,11 +83,11 @@ function renderList(){const arr=matches();root.replaceChildren();$('api-results-
  if(!arr.some(g=>uid(g)===selected))selected=uid(arr[0]);
  for(const g of arr.slice(0,visible)){
   const b=node('button','api-game'+(uid(g)===selected?' is-selected':''));b.type='button';b.setAttribute('aria-label','Open '+g.home.name+' vs '+g.away.name);
-  const top=node('div','api-game-top');top.append(node('span','api-league',g.demo?'⚽ FICTIONAL FOOTBALL':N[g.league]||g.league.toUpperCase()),node('span','api-game-time',fmtDate(g.date)));b.append(top);
+  const top=node('div','api-game-top');top.append(node('span','api-league',g.demo?'⚽ FOOTBALL LAB · DEMO':N[g.league]||g.league.toUpperCase()),node('span','api-game-time',fmtDate(g.date)));b.append(top);
   const main=node('div','api-game-main'),teams=node('div','api-team-names'),scores=node('div','api-scores');
   for(const t of [g.away,g.home]){const row=node('div','api-team-line');if(t.logo&&/^https:\/\//.test(t.logo)){const img=node('img');img.src=t.logo;img.alt='';img.loading='lazy';row.append(img)}row.append(node('span','',t.name));teams.append(row);scores.append(node('strong','',isFinal(g)?safe(t.score):'–'))}
   main.append(teams,scores);b.append(main);
-  const foot=node('div','api-game-bottom');foot.append(node('span','',g.demo?'◈ DEMO / SIMULATED':safe(g.status)),node('span','',fav.includes(uid(g))?'★ Saved':'Explore model ↗'));b.append(foot);
+  const foot=node('div','api-game-bottom');foot.append(node('span','',g.demo?'◈ DEMO / MODEL-GENERATED':safe(g.status)),node('span','',fav.includes(uid(g))?'★ Saved':'Explore model ↗'));b.append(foot);
   b.addEventListener('click',()=>{selected=uid(g);scenario='balanced';showMethod=false;renderList();renderDetail(g);if(window.matchMedia('(max-width:850px)').matches)$('api-detail').scrollIntoView({behavior:'smooth',block:'start'})});root.append(b)
  }
  const more=$('api-more');more.hidden=arr.length<=visible;more.textContent=`Load more · ${arr.length-visible} remaining`;
@@ -116,7 +116,7 @@ function compare(g,m){
   const advanced=node('span','intel-flip-advanced');
   const insight=(label,value)=>{const line=node('span','intel-flip-insight');line.append(node('span','',label),node('strong','',value));return line};
   advanced.append(insight('Win rate',rec.n?Math.round(rec.w/rec.n*100)+'%':'—'),insight('Net points / game',rec.n?((rec.scored-rec.allowed)/rec.n>=0?'+':'')+((rec.scored-rec.allowed)/rec.n).toFixed(2):'—'),insight('Points scored / conceded',rec.n?`${rec.scored} / ${rec.allowed}`:'—'),insight('Sample size',rec.n+' completed games'));
-  back.append(advanced,node('span','intel-flip-backnote',g.demo?'SIMULATED FOOTBALL DATA · FOR ENTERTAINMENT':'MODEL INPUTS · LIMITED TO SAVED API RESULTS'),node('span','intel-flip-hint','RETURNS AUTOMATICALLY  ↶'));
+  back.append(advanced,node('span','intel-flip-backnote',g.demo?'MODEL-GENERATED FOOTBALL DATA · FOR ENTERTAINMENT':'MODEL INPUTS · LIMITED TO SAVED API RESULTS'),node('span','intel-flip-hint','RETURNS AUTOMATICALLY  ↶'));
   inner.append(front,back);card.append(inner);pair.append(card);
  }
  wrap.append(pair);return wrap;
@@ -126,27 +126,27 @@ function scoreDist(m){const e=node('div','intel-panel');e.append(node('div','int
 function historyBlock(g){const list=H2H(g),e=node('div','intel-panel');e.append(node('div','intel-overline','MATCHUP ARCHIVE'),node('h4','intel-panel-title','Head-to-head'));if(!list.length){e.append(node('p','intel-muted','No recorded meetings between these teams in the available archive.'));return e}
  for(const x of list){const row=node('div','intel-h2h');row.append(node('span','',fmtDate(x.date).split(',')[0]),node('span','',x.home.name+' vs '+x.away.name),node('strong','',x.home.score+' : '+x.away.score));e.append(row)}return e}
 function renderDetail(g){const d=$('api-detail');d.replaceChildren();const m=model(g,scenario),demo=g.demo;
- const top=node('div','api-detail-head');top.append(node('span','api-detail-kicker',demo?'◈ FICTIONAL FOOTBALL / SIMULATION':'◈ '+N[g.league]+' / MODEL ESTIMATE'));
+ const top=node('div','api-detail-head');top.append(node('span','api-detail-kicker',demo?'◈ FOOTBALL LAB · DEMO / MODEL SCENARIO':'◈ '+N[g.league]+' / MODEL ESTIMATE'));
  const favBtn=node('button','api-fav'+(fav.includes(uid(g))?' is-saved':''),fav.includes(uid(g))?'★ Saved':'☆ Save');favBtn.type='button';favBtn.addEventListener('click',()=>{fav=fav.includes(uid(g))?fav.filter(x=>x!==uid(g)):[...fav,uid(g)].slice(-150);try{localStorage.setItem('bettao_api_favorites_v1',JSON.stringify(fav))}catch(_){}renderList()});top.append(favBtn);d.append(top);
- d.append(node('h3','intel-match-title',g.home.name+' vs '+g.away.name));const sub=node('div','intel-match-sub');sub.append(node('span','',fmtDate(g.date)),node('span','',demo?'Fictional Premier Division':safe(g.status)),node('span','',demo?'SIMULATED DATA':safe(g.venue)));d.append(sub);
+ d.append(node('h3','intel-match-title',g.home.name+' vs '+g.away.name));const sub=node('div','intel-match-sub');sub.append(node('span','',fmtDate(g.date)),node('span','',demo?'Football Lab League · DEMO':safe(g.status)),node('span','',demo?'MODEL-GENERATED DATA':safe(g.venue)));d.append(sub);
  if(isFinal(g)){const sc=node('div','intel-actual-score','FINAL SCORE · '+g.home.score+' — '+g.away.score);d.append(sc)}
- const hero=node('div','intel-projection');hero.append(node('div','intel-projection-caption','BETTAO MODEL · '+m.confidence));const line=node('div','intel-projection-line');line.append(node('span','intel-projection-team',g.home.name),node('strong','intel-projection-score',m.home.toFixed(demo?2:1)+' : '+m.away.toFixed(demo?2:1)),node('span','intel-projection-team',g.away.name));hero.append(line,node('div','intel-projection-foot',demo?'Expected goals (xG-like simulated model)':'Illustrative expected points · not market odds'));d.append(hero);
+ const hero=node('div','intel-projection');hero.append(node('div','intel-projection-caption','BETTAO MODEL · '+m.confidence));const line=node('div','intel-projection-line');line.append(node('span','intel-projection-team',g.home.name),node('strong','intel-projection-score',m.home.toFixed(demo?2:1)+' : '+m.away.toFixed(demo?2:1)),node('span','intel-projection-team',g.away.name));hero.append(line,node('div','intel-projection-foot',demo?'Expected goals (xG-like illustrative model)':'Illustrative expected points · not market odds'));d.append(hero);
  const panel=node('div','intel-panel intel-main-panel');panel.append(node('div','intel-overline','OUTCOME PROBABILITIES · INTERACTIVE ESTIMATE'),node('h4','intel-panel-title','Win probability'));
  const split=node('div','intel-split');for(const [v,cls] of [[m.pH,'home'],[m.pD,'draw'],[m.pA,'away']]){if(v<=0)continue;const seg=node('div','intel-split-seg '+cls);seg.style.width=percent(v);split.append(seg)}panel.append(split);
  const row=node('div','intel-prob-row');row.append(miniMetric('HOME WIN',percent(m.pH),'model estimate'));if(demo)row.append(miniMetric('DRAW',percent(m.pD),'model estimate'));row.append(miniMetric('AWAY WIN',percent(m.pA),'model estimate'));panel.append(row);
  const scenarioBox=node('div','intel-scenario');scenarioBox.append(node('span','intel-overline','WHAT-IF SCENARIOS'));
  const buttons=node('div','intel-scenario-buttons');for(const [key,label] of [['balanced','Balanced'],['home','Home edge'],['form','Home attack'],['chaos','High variance']]){const b=node('button','intel-scenario-btn'+(scenario===key?' active':''),label);b.type='button';b.setAttribute('aria-pressed',String(scenario===key));b.addEventListener('click',()=>{scenario=key;renderDetail(g)});buttons.append(b)}scenarioBox.append(buttons,node('p','intel-muted','Change a model assumption to explore how the estimated probabilities shift. These are not live betting odds.'));panel.append(scenarioBox);d.append(panel);
- if(demo){const grid=node('div','intel-grid-2');const goals=node('div','intel-panel');goals.append(node('div','intel-overline','SIMULATED GOAL MARKETS'),node('h4','intel-panel-title','Game dynamics'));goals.append(bar('Over 2.5 goals',m.over,'orange'),bar('Both teams to score',m.btts,'blue'),bar('Home clean sheet',m.zeroA,'green'),bar('Away clean sheet',m.zeroH,'gray'));grid.append(goals,scoreDist(m));d.append(grid)}
+ if(demo){const grid=node('div','intel-grid-2');const goals=node('div','intel-panel');goals.append(node('div','intel-overline','MODEL-GENERATED GOAL MARKETS'),node('h4','intel-panel-title','Game dynamics'));goals.append(bar('Over 2.5 goals',m.over,'orange'),bar('Both teams to score',m.btts,'blue'),bar('Home clean sheet',m.zeroA,'green'),bar('Away clean sheet',m.zeroH,'gray'));grid.append(goals,scoreDist(m));d.append(grid)}
  d.append(compare(g,m),historyBlock(g));
  const method=node('div','intel-method');const toggle=node('button','intel-method-toggle','◈ HOW THIS MODEL WORKS '+(showMethod?'−':'+'));toggle.type='button';toggle.setAttribute('aria-expanded',String(showMethod));toggle.addEventListener('click',()=>{showMethod=!showMethod;renderDetail(g)});method.append(toggle);
  if(showMethod){const body=node('div','intel-method-body');body.append(node('p','','The model blends a neutral scoring baseline with the last eight available completed games for each team. Football uses a Poisson goal distribution. NFL/NBA use a simple score-difference logistic approximation; MLB uses a Poisson run model. Scenarios alter the home advantage or uncertainty.'));
- body.append(node('p','',demo?'Football Lab uses entirely fictional teams and deterministic synthetic history. The displayed percentages are entertainment simulations, not validated forecasts.':'Real sports data comes from the daily published API snapshot. When the archive is sparse, the baseline dominates. No bookmaker odds, injuries, lineups, player stats or external ratings are included.'));
+ body.append(node('p','',demo?'Football Lab uses entirely demo teams and deterministic model-generated history. The displayed percentages are entertainment model scenarios, not validated forecasts.':'Real sports data comes from the daily published API snapshot. When the archive is sparse, the baseline dominates. No bookmaker odds, injuries, lineups, player stats or external ratings are included.'));
  body.append(node('p','',`Historical sample: home ${m.h.n} games, away ${m.a.n} games. Model history weight: ${Math.round(m.weight*100)}%. Confidence label: ${m.confidence}.`));method.append(body)}d.append(method);
- d.append(node('p','intel-disclaimer',demo?'⚠ FICTIONAL DATA · DEMONSTRATION ONLY. All football teams, results, fixtures and probabilities are simulated. No financial or betting advice.':'⚠ ESTIMATED, NOT VERIFIED PROBABILITIES. Scores and schedules are API snapshots; model percentages are illustrative calculations and may be inaccurate.'));
+ d.append(node('p','intel-disclaimer',demo?'⚠ FOOTBALL LAB DEMO. Teams, fixtures and match history are illustrative, not real-world records. Probabilities are model estimates, not betting advice.':'⚠ ESTIMATED, NOT VERIFIED PROBABILITIES. Scores and schedules are API snapshots; model percentages are illustrative calculations and may be inaccurate.'));
 }
 function stats(){const g=allGames(),finished=real.filter(isFinal);$('api-metric-games').textContent=String(g.length);$('api-metric-upcoming').textContent=String(g.filter(x=>!isFinal(x)).length);$('api-metric-final').textContent=String(finished.length);$('api-metric-history').textContent=String(finished.length);$('api-updated').textContent=real.length?'API snapshot loaded':'Demo ready · offline';}
-function statusText(data){const status=$('api-status');if(league==='demo'){status.textContent=`FOOTBALL LAB · ${DEMO.fixtures.length} fictional fixtures · ${DEMO.history.length} simulated historical games · 100% free entertainment`;return}
- const at=data&&data.generatedAt?fmtDate(data.generatedAt):'not available';status.textContent=real.length?`${real.length} real API matches · Last snapshot: ${at} · Not live · Predictions are illustrative`: 'Real API feed unavailable. The fictional Football Lab works offline.'}
+function statusText(data){const status=$('api-status');if(league==='demo'){status.textContent=`FOOTBALL LAB · ${DEMO.fixtures.length} demo fixtures · ${DEMO.history.length} model-generated historical games · 100% free entertainment`;return}
+ const at=data&&data.generatedAt?fmtDate(data.generatedAt):'not available';status.textContent=real.length?`${real.length} real API matches · Last snapshot: ${at} · Not live · Predictions are illustrative`: 'Real API feed unavailable. The demo Football Lab works offline.'}
 function refresh(){visible=12;stats();$('api-demo-banner').hidden=league!=='demo';statusText(window.__bettaoData);renderList()}
 for(const b of document.querySelectorAll('[data-api-league]'))b.addEventListener('click',()=>{league=b.dataset.apiLeague;document.querySelectorAll('[data-api-league]').forEach(x=>{x.classList.toggle('is-active',x===b);x.setAttribute('aria-pressed',String(x===b))});selected='';refresh()});
 for(const b of document.querySelectorAll('[data-api-state]'))b.addEventListener('click',()=>{state=b.dataset.apiState;document.querySelectorAll('[data-api-state]').forEach(x=>{x.classList.toggle('is-active',x===b);x.setAttribute('aria-pressed',String(x===b))});selected='';refresh()});
@@ -154,7 +154,7 @@ $('api-search').addEventListener('input',e=>{search=e.target.value.trim().toLowe
 $('api-sort').addEventListener('change',e=>{sort=e.target.value;renderList()});
 $('api-more').addEventListener('click',()=>{visible+=12;renderList()});
 $('api-reload').addEventListener('click',()=>load(true));
-$('api-export').addEventListener('click',()=>{const rows=[['League','Home','Away','Date','Status','Home score','Away score','Data type'],...matches().map(g=>[N[g.league],g.home.name,g.away.name,g.date,g.status,safe(g.home.score,''),safe(g.away.score,''),g.demo?'FICTIONAL':'API'])];const csv=rows.map(row=>row.map(x=>'"'+String(x).replace(/"/g,'""')+'"').join(',')).join('\r\n');const url=URL.createObjectURL(new Blob(['\ufeff'+csv],{type:'text/csv;charset=utf-8'}));const a=node('a');a.href=url;a.download='bettao-match-explorer.csv';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000)});
+$('api-export').addEventListener('click',()=>{const rows=[['League','Home','Away','Date','Status','Home score','Away score','Data type'],...matches().map(g=>[N[g.league],g.home.name,g.away.name,g.date,g.status,safe(g.home.score,''),safe(g.away.score,''),g.demo?'DEMO':'API'])];const csv=rows.map(row=>row.map(x=>'"'+String(x).replace(/"/g,'""')+'"').join(',')).join('\r\n');const url=URL.createObjectURL(new Blob(['\ufeff'+csv],{type:'text/csv;charset=utf-8'}));const a=node('a');a.href=url;a.download='bettao-match-explorer.csv';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000)});
 function load(bust){const url='data/matches.json'+(bust?'?t='+Date.now():'');fetch(url,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(data=>{window.__bettaoData=data;real=Array.isArray(data.games)?data.games.filter(g=>g&&['nfl','nba','mlb'].includes(g.league)&&g.id&&g.home&&g.away&&g.home.name&&g.away.name):[];refresh()}).catch(()=>{real=[];refresh()})}
 refresh();load(false);
 })();

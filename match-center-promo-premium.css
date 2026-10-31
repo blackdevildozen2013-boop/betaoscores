@@ -1,0 +1,32 @@
+/* Bettao premium floating Match Center invitation */
+.mc-float.mc-float-premium{position:fixed;z-index:1100;right:24px;bottom:24px;display:grid;grid-template-columns:102px minmax(0,1fr);gap:0;width:min(440px,calc(100vw - 32px));min-height:254px;padding:0!important;overflow:hidden;color:#fff;border:1px solid rgba(255,173,105,.42);border-radius:23px;background:linear-gradient(132deg,#172335 0%,#0c1320 60%,#0e1828 100%);box-shadow:0 26px 80px #020711b3,0 0 0 1px #ffffff0b inset,0 0 40px #ff7a3014;isolation:isolate;animation:mcPromoIn .75s cubic-bezier(.18,.85,.25,1) both}
+.mc-float.mc-float-premium[hidden]{display:none!important}
+.mc-float-premium::before{content:"";position:absolute;inset:-100px -40px auto auto;width:230px;height:230px;border-radius:50%;background:radial-gradient(circle,#ff842e2c,transparent 70%);pointer-events:none;z-index:-1}
+.mc-float-premium .mc-float-close{position:absolute;z-index:5;top:10px;right:11px;display:grid;place-items:center;width:29px;height:29px;padding:0;border:1px solid #ffffff25;border-radius:50%;background:#0a1220ad;color:#e9eef6;font-size:22px;line-height:1;transition:background .2s,transform .2s}
+.mc-float-premium .mc-float-close:hover{background:#34435b;transform:rotate(90deg)}
+.mc-float-premium .mc-float-art{position:relative;min-width:0;overflow:hidden;background:radial-gradient(ellipse at 65% 42%,#f590442b,transparent 48%),linear-gradient(180deg,#142338,#101826)}
+.mc-float-premium .mc-float-art::after{content:"";position:absolute;inset:0;border-right:1px solid #ffffff10;background:repeating-linear-gradient(0deg,transparent 0 26px,#ffffff05 27px 28px);pointer-events:none}
+.mc-float-premium .mc-float-core{position:absolute;top:50%;left:52%;width:76px;height:76px;display:grid;place-items:center;transform:translate(-50%,-50%);border-radius:50%;background:radial-gradient(circle at 30% 25%,#fff6d999,#fa9b4b20 42%,#f47b1b08 70%);box-shadow:0 0 30px #ff944550,0 0 70px #ff812e21;animation:mcCoreFloat 3.8s ease-in-out infinite}
+.mc-float-premium .mc-float-core-ball{display:block;font-size:54px;filter:drop-shadow(0 8px 9px #0009);animation:mcBallTurn 9s ease-in-out infinite}
+.mc-float-premium .mc-float-orbit{position:absolute;top:50%;left:50%;width:130px;height:180px;border:1px solid #ffa85b44;border-radius:50%;transform:translate(-50%,-50%) rotate(22deg);animation:mcOrbit 10s linear infinite}
+.mc-float-premium .orbit-two{width:140px;height:158px;border-color:#a2c8ff29;transform:translate(-50%,-50%) rotate(-48deg);animation-duration:14s;animation-direction:reverse}
+.mc-float-premium .mc-float-art-star{position:absolute;color:#ffd19b;text-shadow:0 0 12px #ffa65c;font-size:21px;animation:mcStarPulse 2.4s ease-in-out infinite}.mc-float-premium .star-one{top:20%;left:15%}.mc-float-premium .star-two{bottom:18%;right:11%;animation-delay:1s}
+.mc-float-premium .mc-float-content{padding:23px 24px 17px 16px;min-width:0}
+.mc-float-premium .mc-float-topline{display:flex;align-items:center;gap:7px;margin-bottom:10px;color:#ffb67b;font-size:9px;font-weight:850;letter-spacing:.115em}
+.mc-float-premium .mc-float-live-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#ff9a49;box-shadow:0 0 0 4px #ff9a491b,0 0 12px #ff9a49;animation:mcStarPulse 2s ease-in-out infinite}
+.mc-float-premium h2{margin:0 0 8px;color:#fff;font-size:clamp(23px,2.5vw,29px);font-weight:850;letter-spacing:-.055em;line-height:1.05}
+.mc-float-premium h2 em{font-style:normal;color:#ffa75c;text-shadow:0 0 23px #ff87343b}
+.mc-float-premium p{margin:0;color:#bfcadb;font-size:11.5px;line-height:1.48}
+.mc-float-premium .mc-float-points{display:flex;gap:9px;flex-wrap:wrap;margin:11px 0 12px;color:#dfe8f7;font-size:9.5px;font-weight:700}
+.mc-float-premium .mc-float-cta{display:flex;align-items:center;justify-content:space-between;gap:8px;width:100%;min-height:41px;padding:11px 13px;margin:0;border:1px solid #ffc58c55;border-radius:10px;color:#1a130f!important;background:linear-gradient(105deg,#ffd09c,#ff8b35 63%,#ffad57);box-shadow:0 5px 23px #ff812b42,0 1px 0 #fff7 inset;font-size:10.5px;font-weight:950;letter-spacing:.04em;text-decoration:none;transition:transform .2s,box-shadow .2s}
+.mc-float-premium .mc-float-cta:hover{transform:translateY(-2px);box-shadow:0 8px 28px #ff812b75,0 1px 0 #fff7 inset}
+.mc-float-premium .mc-float-cta:focus-visible,.mc-float-premium .mc-float-close:focus-visible{outline:2px solid white;outline-offset:3px}
+.mc-float-premium .mc-float-cta-arrow{font-size:19px;transition:transform .2s}.mc-float-premium .mc-float-cta:hover .mc-float-cta-arrow{transform:translate(2px,-2px)}
+.mc-float-premium .mc-float-micro{margin-top:7px;color:#899aaf;font-size:9px;text-align:center}
+@keyframes mcPromoIn{from{opacity:0;transform:translateY(25px) scale(.96)}to{opacity:1;transform:translateY(0) scale(1)}}
+@keyframes mcCoreFloat{0%,100%{transform:translate(-50%,-50%) translateY(0)}50%{transform:translate(-50%,-50%) translateY(-9px)}}
+@keyframes mcBallTurn{0%,100%{transform:rotate(-15deg)}50%{transform:rotate(24deg)}}
+@keyframes mcOrbit{to{transform:translate(-50%,-50%) rotate(382deg)}}
+@keyframes mcStarPulse{0%,100%{opacity:.45;filter:brightness(1)}50%{opacity:1;filter:brightness(1.6)}}
+@media(max-width:540px){.mc-float.mc-float-premium{right:10px;bottom:10px;width:min(410px,calc(100vw - 20px));grid-template-columns:76px minmax(0,1fr);min-height:210px;border-radius:17px}.mc-float-premium .mc-float-content{padding:17px 16px 13px 10px}.mc-float-premium .mc-float-core{width:62px;height:62px}.mc-float-premium .mc-float-core-ball{font-size:40px}.mc-float-premium h2{font-size:23px}.mc-float-premium .mc-float-close{right:7px;top:7px;width:25px;height:25px}.mc-float-premium .mc-float-topline{font-size:8px;padding-right:22px}.mc-float-premium .mc-float-points{font-size:8px;gap:6px}.mc-float-premium .mc-float-cta{font-size:9.5px;min-height:37px}}
+@media(prefers-reduced-motion:reduce){.mc-float-premium,.mc-float-premium *{animation:none!important;transition:none!important}}
