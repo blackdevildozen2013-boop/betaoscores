@@ -1,6 +1,6 @@
 {
   "configured": true,
-  "generatedAt": "2026-11-01T12:08:49.111389Z",
+  "generatedAt": "2026-11-01T17:55:39.457071Z",
   "games": [
     {
       "id": "401873036",
@@ -265,6 +265,82 @@
         "name": "Carolina Panthers",
         "score": 19,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAEwbSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909906",
+      "league": "nba",
+      "name": "Toronto Raptors at Los Angeles Lakers",
+      "date": "2026-11-02T02:00Z",
+      "status": "Sun, November 1st at 9:00 PM EST",
+      "venue": "crypto.com Arena",
+      "home": {
+        "name": "Los Angeles Lakers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGD0wFSkoYVg"
+      },
+      "away": {
+        "name": "Toronto Raptors",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGF0IbSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909905",
+      "league": "nba",
+      "name": "LA Clippers at Golden State Warriors",
+      "date": "2026-11-02T01:30Z",
+      "status": "Sun, November 1st at 8:30 PM EST",
+      "venue": "Chase Center",
+      "home": {
+        "name": "Golden State Warriors",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGBF5HFFQR"
+      },
+      "away": {
+        "name": "LA Clippers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGD0wKSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909904",
+      "league": "nba",
+      "name": "Brooklyn Nets at Indiana Pacers",
+      "date": "2026-11-01T22:00Z",
+      "status": "Sun, November 1st at 5:00 PM EST",
+      "venue": "Gainbridge Fieldhouse",
+      "home": {
+        "name": "Indiana Pacers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGCkMNSkoYVg"
+      },
+      "away": {
+        "name": "Brooklyn Nets",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAUYHSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909903",
+      "league": "nba",
+      "name": "Boston Celtics at Orlando Magic",
+      "date": "2026-11-01T20:30Z",
+      "status": "Sun, November 1st at 3:30 PM EST",
+      "venue": "Kia Center",
+      "home": {
+        "name": "Orlando Magic",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDF8FSkoYVg"
+      },
+      "away": {
+        "name": "Boston Celtics",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAUIaSkoYVg"
       },
       "periods": []
     },
