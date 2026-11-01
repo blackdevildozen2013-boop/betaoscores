@@ -1,6 +1,6 @@
 {
   "configured": true,
-  "generatedAt": "2026-10-31T17:14:48.057717Z",
+  "generatedAt": "2026-11-01T12:08:49.111389Z",
   "games": [
     {
       "id": "401873036",
@@ -273,16 +273,16 @@
       "league": "nba",
       "name": "Oklahoma City Thunder at Houston Rockets",
       "date": "2026-11-01T00:30Z",
-      "status": "Sat, October 31st at 8:30 PM EDT",
+      "status": "Final",
       "venue": "Toyota Center (Houston)",
       "home": {
         "name": "Houston Rockets",
-        "score": 0,
+        "score": 119,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGC0IcSkoYVg"
       },
       "away": {
         "name": "Oklahoma City Thunder",
-        "score": 0,
+        "score": 98,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDEYKSkoYVg"
       },
       "periods": []
@@ -292,16 +292,16 @@
       "league": "nba",
       "name": "Sacramento Kings at Memphis Grizzlies",
       "date": "2026-11-01T00:00Z",
-      "status": "Sat, October 31st at 8:00 PM EDT",
+      "status": "Final",
       "venue": "FedExForum",
       "home": {
         "name": "Memphis Grizzlies",
-        "score": 0,
+        "score": 136,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkgESkoYVg"
       },
       "away": {
         "name": "Sacramento Kings",
-        "score": 0,
+        "score": 105,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGEEwKSkoYVg"
       },
       "periods": []
@@ -311,16 +311,16 @@
       "league": "nba",
       "name": "Cleveland Cavaliers at Milwaukee Bucks",
       "date": "2026-11-01T00:00Z",
-      "status": "Sat, October 31st at 8:00 PM EDT",
+      "status": "Final",
       "venue": "Fiserv Forum",
       "home": {
         "name": "Milwaukee Bucks",
-        "score": 0,
+        "score": 111,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQFSkoYVg"
       },
       "away": {
         "name": "Cleveland Cavaliers",
-        "score": 0,
+        "score": 136,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAEEMSkoYVg"
       },
       "periods": []
@@ -330,16 +330,16 @@
       "league": "nba",
       "name": "Minnesota Timberwolves at San Antonio Spurs",
       "date": "2026-11-01T00:00Z",
-      "status": "Sat, October 31st at 8:00 PM EDT",
+      "status": "Final",
       "venue": "Frost Bank Center",
       "home": {
         "name": "San Antonio Spurs",
-        "score": 0,
+        "score": 121,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGEExHFFQR"
       },
       "away": {
         "name": "Minnesota Timberwolves",
-        "score": 0,
+        "score": 111,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQHSkoYVg"
       },
       "periods": []
@@ -349,16 +349,16 @@
       "league": "nba",
       "name": "Atlanta Hawks at New Orleans Pelicans",
       "date": "2026-10-31T23:00Z",
-      "status": "Sat, October 31st at 7:00 PM EDT",
+      "status": "Final",
       "venue": "Smoothie King Center",
       "home": {
         "name": "New Orleans Pelicans",
-        "score": 0,
+        "score": 121,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDUJHFFQR"
       },
       "away": {
         "name": "Atlanta Hawks",
-        "score": 0,
+        "score": 99,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAlkFSkoYVg"
       },
       "periods": []
@@ -368,16 +368,16 @@
       "league": "nba",
       "name": "Philadelphia 76ers at Charlotte Hornets",
       "date": "2026-10-31T22:00Z",
-      "status": "Sat, October 31st at 6:00 PM EDT",
+      "status": "Final",
       "venue": "Spectrum Center",
       "home": {
         "name": "Charlotte Hornets",
-        "score": 0,
+        "score": 104,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAEUISkoYVg"
       },
       "away": {
         "name": "Philadelphia 76ers",
-        "score": 0,
+        "score": 109,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0UASkoYVg"
       },
       "periods": []
@@ -387,16 +387,16 @@
       "league": "nba",
       "name": "Portland Trail Blazers at Utah Jazz",
       "date": "2026-10-31T19:00Z",
-      "status": "Sat, October 31st at 3:00 PM EDT",
+      "status": "Final",
       "venue": "Delta Center",
       "home": {
         "name": "Utah Jazz",
-        "score": 0,
+        "score": 90,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGFlkIDBQGX10"
       },
       "away": {
         "name": "Portland Trail Blazers",
-        "score": 0,
+        "score": 112,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0IbSkoYVg"
       },
       "periods": []
