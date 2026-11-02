@@ -1,6 +1,6 @@
 {
   "configured": true,
-  "generatedAt": "2026-11-01T17:55:39.457071Z",
+  "generatedAt": "2026-11-02T13:57:16.736153Z",
   "games": [
     {
       "id": "401873036",
@@ -26,16 +26,16 @@
       "league": "nfl",
       "name": "Philadelphia Eagles at Washington Commanders",
       "date": "2026-11-02T01:20Z",
-      "status": "Sun, November 1st at 8:20 PM EST",
+      "status": "Final",
       "venue": "Northwest Stadium",
       "home": {
         "name": "Washington Commanders",
-        "score": 0,
+        "score": 27,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGFF4BSkoYVg"
       },
       "away": {
         "name": "Philadelphia Eagles",
-        "score": 0,
+        "score": 10,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGE0UASkoYVg"
       },
       "periods": []
@@ -45,16 +45,16 @@
       "league": "nfl",
       "name": "Kansas City Chiefs at Denver Broncos",
       "date": "2026-11-01T21:25Z",
-      "status": "Sun, November 1st at 4:25 PM EST",
+      "status": "Final",
       "venue": "Empower Field at Mile High",
       "home": {
         "name": "Denver Broncos",
-        "score": 0,
+        "score": 28,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGB0gHSkoYVg"
       },
       "away": {
         "name": "Kansas City Chiefs",
-        "score": 0,
+        "score": 24,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGCE5HFFQR"
       },
       "periods": []
@@ -64,16 +64,16 @@
       "league": "nfl",
       "name": "New England Patriots at Miami Dolphins",
       "date": "2026-11-01T21:25Z",
-      "status": "Sun, November 1st at 4:25 PM EST",
+      "status": "Final",
       "venue": "Hard Rock Stadium",
       "home": {
         "name": "Miami Dolphins",
-        "score": 0,
+        "score": 19,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGDkQISkoYVg"
       },
       "away": {
         "name": "New England Patriots",
-        "score": 0,
+        "score": 24,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGDUhHFFQR"
       },
       "periods": []
@@ -83,16 +83,16 @@
       "league": "nfl",
       "name": "Los Angeles Chargers at Los Angeles Rams",
       "date": "2026-11-01T21:05Z",
-      "status": "Sun, November 1st at 4:05 PM EST",
+      "status": "Final",
       "venue": "SoFi Stadium",
       "home": {
         "name": "Los Angeles Rams",
-        "score": 0,
+        "score": 24,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGD0wbSkoYVg"
       },
       "away": {
         "name": "Los Angeles Chargers",
-        "score": 0,
+        "score": 9,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGD0wKSkoYVg"
       },
       "periods": []
@@ -102,16 +102,16 @@
       "league": "nfl",
       "name": "Baltimore Ravens at Buffalo Bills",
       "date": "2026-11-01T18:00Z",
-      "status": "Sun, November 1st at 1:00 PM EST",
+      "status": "Final",
       "venue": "Highmark Stadium",
       "home": {
         "name": "Buffalo Bills",
-        "score": 0,
+        "score": 36,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAVgPSkoYVg"
       },
       "away": {
         "name": "Baltimore Ravens",
-        "score": 0,
+        "score": 10,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAUwFSkoYVg"
       },
       "periods": []
@@ -121,16 +121,16 @@
       "league": "nfl",
       "name": "Tennessee Titans at Cincinnati Bengals",
       "date": "2026-11-01T18:00Z",
-      "status": "Sun, November 1st at 1:00 PM EST",
+      "status": "Final/OT",
       "venue": "Paycor Stadium",
       "home": {
         "name": "Cincinnati Bengals",
-        "score": 0,
+        "score": 43,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAEQHSkoYVg"
       },
       "away": {
         "name": "Tennessee Titans",
-        "score": 0,
+        "score": 36,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGF0gHSkoYVg"
       },
       "periods": []
@@ -140,16 +140,16 @@
       "league": "nfl",
       "name": "Arizona Cardinals at Dallas Cowboys",
       "date": "2026-11-01T18:00Z",
-      "status": "Sun, November 1st at 1:00 PM EST",
+      "status": "Final/OT",
       "venue": "AT&T Stadium",
       "home": {
         "name": "Dallas Cowboys",
-        "score": 0,
+        "score": 30,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGB0wFSkoYVg"
       },
       "away": {
         "name": "Arizona Cardinals",
-        "score": 0,
+        "score": 33,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAl8ASkoYVg"
       },
       "periods": []
@@ -159,16 +159,16 @@
       "league": "nfl",
       "name": "Minnesota Vikings at Detroit Lions",
       "date": "2026-11-01T18:00Z",
-      "status": "Sun, November 1st at 1:00 PM EST",
+      "status": "Final",
       "venue": "Ford Field",
       "home": {
         "name": "Detroit Lions",
-        "score": 0,
+        "score": 19,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGB0gdSkoYVg"
       },
       "away": {
         "name": "Minnesota Vikings",
-        "score": 0,
+        "score": 15,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGDkQHSkoYVg"
       },
       "periods": []
@@ -178,16 +178,16 @@
       "league": "nfl",
       "name": "Las Vegas Raiders at New York Jets",
       "date": "2026-11-01T18:00Z",
-      "status": "Sun, November 1st at 1:00 PM EST",
+      "status": "Final",
       "venue": "MetLife Stadium",
       "home": {
         "name": "New York Jets",
-        "score": 0,
+        "score": 33,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGDVQDSkoYVg"
       },
       "away": {
         "name": "Las Vegas Raiders",
-        "score": 0,
+        "score": 38,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGD1tHFFQR"
       },
       "periods": []
@@ -197,16 +197,16 @@
       "league": "nfl",
       "name": "Cleveland Browns at Pittsburgh Steelers",
       "date": "2026-11-01T18:00Z",
-      "status": "Sun, November 1st at 1:00 PM EST",
+      "status": "Final",
       "venue": "Acrisure Stadium",
       "home": {
         "name": "Pittsburgh Steelers",
-        "score": 0,
+        "score": 27,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGE0QdSkoYVg"
       },
       "away": {
         "name": "Cleveland Browns",
-        "score": 0,
+        "score": 6,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAEEMSkoYVg"
       },
       "periods": []
@@ -216,11 +216,11 @@
       "league": "nfl",
       "name": "Atlanta Falcons at Tampa Bay Buccaneers",
       "date": "2026-11-01T18:00Z",
-      "status": "Sun, November 1st at 1:00 PM EST",
+      "status": "Final",
       "venue": "Raymond James Stadium",
       "home": {
         "name": "Tampa Bay Buccaneers",
-        "score": 0,
+        "score": 16,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGF09HFFQR"
       },
       "away": {
@@ -235,16 +235,16 @@
       "league": "nfl",
       "name": "Indianapolis Colts at Jacksonville Jaguars",
       "date": "2026-11-01T18:00Z",
-      "status": "Sun, November 1st at 1:00 PM EST",
+      "status": "Final",
       "venue": "EverBank Stadium",
       "home": {
         "name": "Jacksonville Jaguars",
-        "score": 0,
+        "score": 42,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGCUwRSkoYVg"
       },
       "away": {
         "name": "Indianapolis Colts",
-        "score": 0,
+        "score": 7,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGCkMNSkoYVg"
       },
       "periods": []
@@ -273,16 +273,16 @@
       "league": "nba",
       "name": "Toronto Raptors at Los Angeles Lakers",
       "date": "2026-11-02T02:00Z",
-      "status": "Sun, November 1st at 9:00 PM EST",
+      "status": "Final",
       "venue": "crypto.com Arena",
       "home": {
         "name": "Los Angeles Lakers",
-        "score": 0,
+        "score": 131,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGD0wFSkoYVg"
       },
       "away": {
         "name": "Toronto Raptors",
-        "score": 0,
+        "score": 125,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGF0IbSkoYVg"
       },
       "periods": []
@@ -292,16 +292,16 @@
       "league": "nba",
       "name": "LA Clippers at Golden State Warriors",
       "date": "2026-11-02T01:30Z",
-      "status": "Sun, November 1st at 8:30 PM EST",
+      "status": "Final",
       "venue": "Chase Center",
       "home": {
         "name": "Golden State Warriors",
-        "score": 0,
+        "score": 124,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGBF5HFFQR"
       },
       "away": {
         "name": "LA Clippers",
-        "score": 0,
+        "score": 112,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGD0wKSkoYVg"
       },
       "periods": []
@@ -311,16 +311,16 @@
       "league": "nba",
       "name": "Brooklyn Nets at Indiana Pacers",
       "date": "2026-11-01T22:00Z",
-      "status": "Sun, November 1st at 5:00 PM EST",
+      "status": "Final",
       "venue": "Gainbridge Fieldhouse",
       "home": {
         "name": "Indiana Pacers",
-        "score": 0,
+        "score": 90,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGCkMNSkoYVg"
       },
       "away": {
         "name": "Brooklyn Nets",
-        "score": 0,
+        "score": 98,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAUYHSkoYVg"
       },
       "periods": []
@@ -330,16 +330,16 @@
       "league": "nba",
       "name": "Boston Celtics at Orlando Magic",
       "date": "2026-11-01T20:30Z",
-      "status": "Sun, November 1st at 3:30 PM EST",
+      "status": "Final",
       "venue": "Kia Center",
       "home": {
         "name": "Orlando Magic",
-        "score": 0,
+        "score": 97,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDF8FSkoYVg"
       },
       "away": {
         "name": "Boston Celtics",
-        "score": 0,
+        "score": 108,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAUIaSkoYVg"
       },
       "periods": []
