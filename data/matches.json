@@ -1,22 +1,22 @@
 {
   "configured": true,
-  "generatedAt": "2026-11-02T21:41:30.249116Z",
+  "generatedAt": "2026-11-03T13:06:25.027990Z",
   "games": [
     {
       "id": "401873036",
       "league": "nfl",
       "name": "Chicago Bears at Seattle Seahawks",
       "date": "2026-11-03T01:15Z",
-      "status": "Mon, November 2nd at 8:15 PM EST",
+      "status": "Final",
       "venue": "Lumen Field",
       "home": {
         "name": "Seattle Seahawks",
-        "score": 0,
+        "score": 17,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGEEgISkoYVg"
       },
       "away": {
         "name": "Chicago Bears",
-        "score": 0,
+        "score": 34,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAEUASkoYVg"
       },
       "periods": []
@@ -273,16 +273,16 @@
       "league": "nba",
       "name": "Phoenix Suns at Golden State Warriors",
       "date": "2026-11-03T03:00Z",
-      "status": "Mon, November 2nd at 10:00 PM EST",
+      "status": "Final",
       "venue": "Chase Center",
       "home": {
         "name": "Golden State Warriors",
-        "score": 0,
+        "score": 116,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGBF5HFFQR"
       },
       "away": {
         "name": "Phoenix Suns",
-        "score": 0,
+        "score": 113,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0URSkoYVg"
       },
       "periods": []
@@ -292,16 +292,16 @@
       "league": "nba",
       "name": "Toronto Raptors at LA Clippers",
       "date": "2026-11-03T03:00Z",
-      "status": "Mon, November 2nd at 10:00 PM EST",
+      "status": "Final",
       "venue": "Intuit Dome",
       "home": {
         "name": "LA Clippers",
-        "score": 0,
+        "score": 118,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGD0wKSkoYVg"
       },
       "away": {
         "name": "Toronto Raptors",
-        "score": 0,
+        "score": 125,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGF0IbSkoYVg"
       },
       "periods": []
@@ -311,16 +311,16 @@
       "league": "nba",
       "name": "Miami Heat at Los Angeles Lakers",
       "date": "2026-11-03T03:00Z",
-      "status": "Mon, November 2nd at 10:00 PM EST",
+      "status": "Final",
       "venue": "crypto.com Arena",
       "home": {
         "name": "Los Angeles Lakers",
-        "score": 0,
+        "score": 138,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGD0wFSkoYVg"
       },
       "away": {
         "name": "Miami Heat",
-        "score": 0,
+        "score": 117,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQISkoYVg"
       },
       "periods": []
@@ -330,16 +330,16 @@
       "league": "nba",
       "name": "Portland Trail Blazers at Denver Nuggets",
       "date": "2026-11-03T02:00Z",
-      "status": "Mon, November 2nd at 9:00 PM EST",
+      "status": "Final",
       "venue": "Ball Arena",
       "home": {
         "name": "Denver Nuggets",
-        "score": 0,
+        "score": 110,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGB0gHSkoYVg"
       },
       "away": {
         "name": "Portland Trail Blazers",
-        "score": 0,
+        "score": 118,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0IbSkoYVg"
       },
       "periods": []
@@ -349,16 +349,16 @@
       "league": "nba",
       "name": "Boston Celtics at Houston Rockets",
       "date": "2026-11-03T01:30Z",
-      "status": "Mon, November 2nd at 8:30 PM EST",
+      "status": "Final",
       "venue": "Toyota Center (Houston)",
       "home": {
         "name": "Houston Rockets",
-        "score": 0,
+        "score": 109,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGC0IcSkoYVg"
       },
       "away": {
         "name": "Boston Celtics",
-        "score": 0,
+        "score": 93,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAUIaSkoYVg"
       },
       "periods": []
@@ -368,16 +368,16 @@
       "league": "nba",
       "name": "Utah Jazz at San Antonio Spurs",
       "date": "2026-11-03T01:30Z",
-      "status": "Mon, November 2nd at 8:30 PM EST",
+      "status": "Final",
       "venue": "Frost Bank Center",
       "home": {
         "name": "San Antonio Spurs",
-        "score": 0,
+        "score": 119,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGEExHFFQR"
       },
       "away": {
         "name": "Utah Jazz",
-        "score": 0,
+        "score": 97,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGFlkIDBQGX10"
       },
       "periods": []
@@ -387,16 +387,16 @@
       "league": "nba",
       "name": "Sacramento Kings at Dallas Mavericks",
       "date": "2026-11-03T01:00Z",
-      "status": "Mon, November 2nd at 8:00 PM EST",
+      "status": "Final",
       "venue": "American Airlines Center",
       "home": {
         "name": "Dallas Mavericks",
-        "score": 0,
+        "score": 100,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGB0wFSkoYVg"
       },
       "away": {
         "name": "Sacramento Kings",
-        "score": 0,
+        "score": 115,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGEEwKSkoYVg"
       },
       "periods": []
@@ -406,16 +406,16 @@
       "league": "nba",
       "name": "New Orleans Pelicans at Memphis Grizzlies",
       "date": "2026-11-03T01:00Z",
-      "status": "Mon, November 2nd at 8:00 PM EST",
+      "status": "Final/OT",
       "venue": "FedExForum",
       "home": {
         "name": "Memphis Grizzlies",
-        "score": 0,
+        "score": 134,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkgESkoYVg"
       },
       "away": {
         "name": "New Orleans Pelicans",
-        "score": 0,
+        "score": 135,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDUJHFFQR"
       },
       "periods": []
@@ -425,16 +425,16 @@
       "league": "nba",
       "name": "Milwaukee Bucks at Minnesota Timberwolves",
       "date": "2026-11-03T01:00Z",
-      "status": "Mon, November 2nd at 8:00 PM EST",
+      "status": "Final",
       "venue": "Target Center",
       "home": {
         "name": "Minnesota Timberwolves",
-        "score": 0,
+        "score": 112,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQHSkoYVg"
       },
       "away": {
         "name": "Milwaukee Bucks",
-        "score": 0,
+        "score": 100,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQFSkoYVg"
       },
       "periods": []
@@ -444,16 +444,16 @@
       "league": "nba",
       "name": "Detroit Pistons at Charlotte Hornets",
       "date": "2026-11-03T00:30Z",
-      "status": "Mon, November 2nd at 7:30 PM EST",
+      "status": "Final",
       "venue": "Spectrum Center",
       "home": {
         "name": "Charlotte Hornets",
-        "score": 0,
+        "score": 91,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAEUISkoYVg"
       },
       "away": {
         "name": "Detroit Pistons",
-        "score": 0,
+        "score": 124,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGB0gdSkoYVg"
       },
       "periods": []
@@ -463,16 +463,16 @@
       "league": "nba",
       "name": "Atlanta Hawks at Indiana Pacers",
       "date": "2026-11-03T00:30Z",
-      "status": "Mon, November 2nd at 7:30 PM EST",
+      "status": "Final",
       "venue": "Gainbridge Fieldhouse",
       "home": {
         "name": "Indiana Pacers",
-        "score": 0,
+        "score": 104,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGCkMNSkoYVg"
       },
       "away": {
         "name": "Atlanta Hawks",
-        "score": 0,
+        "score": 108,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAlkFSkoYVg"
       },
       "periods": []
@@ -482,16 +482,16 @@
       "league": "nba",
       "name": "Brooklyn Nets at New York Knicks",
       "date": "2026-11-03T00:30Z",
-      "status": "Mon, November 2nd at 7:30 PM EST",
+      "status": "Final",
       "venue": "Madison Square Garden",
       "home": {
         "name": "New York Knicks",
-        "score": 0,
+        "score": 103,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDVRHFFQR"
       },
       "away": {
         "name": "Brooklyn Nets",
-        "score": 0,
+        "score": 90,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAUYHSkoYVg"
       },
       "periods": []
@@ -501,16 +501,16 @@
       "league": "nba",
       "name": "Washington Wizards at Orlando Magic",
       "date": "2026-11-03T00:30Z",
-      "status": "Mon, November 2nd at 7:30 PM EST",
+      "status": "Final",
       "venue": "Kia Center",
       "home": {
         "name": "Orlando Magic",
-        "score": 0,
+        "score": 94,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDF8FSkoYVg"
       },
       "away": {
         "name": "Washington Wizards",
-        "score": 0,
+        "score": 103,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGFF4BSkoYVg"
       },
       "periods": []
@@ -520,16 +520,16 @@
       "league": "nba",
       "name": "Chicago Bulls at Philadelphia 76ers",
       "date": "2026-11-03T00:30Z",
-      "status": "Mon, November 2nd at 7:30 PM EST",
+      "status": "Final",
       "venue": "Xfinity Mobile Arena",
       "home": {
         "name": "Philadelphia 76ers",
-        "score": 0,
+        "score": 126,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0UASkoYVg"
       },
       "away": {
         "name": "Chicago Bulls",
-        "score": 0,
+        "score": 107,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAEUASkoYVg"
       },
       "periods": []
@@ -539,16 +539,16 @@
       "league": "nba",
       "name": "Oklahoma City Thunder at Cleveland Cavaliers",
       "date": "2026-11-03T00:00Z",
-      "status": "Mon, November 2nd at 7:00 PM EST",
+      "status": "Final",
       "venue": "Rocket Arena",
       "home": {
         "name": "Cleveland Cavaliers",
-        "score": 0,
+        "score": 112,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAEEMSkoYVg"
       },
       "away": {
         "name": "Oklahoma City Thunder",
-        "score": 0,
+        "score": 117,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDEYKSkoYVg"
       },
       "periods": []
