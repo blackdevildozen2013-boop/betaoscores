@@ -1,6 +1,6 @@
 {
   "configured": true,
-  "generatedAt": "2026-11-03T13:06:25.027990Z",
+  "generatedAt": "2026-11-03T19:28:27.339766Z",
   "games": [
     {
       "id": "401873036",
@@ -265,6 +265,272 @@
         "name": "Carolina Panthers",
         "score": 19,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAEwbSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909935",
+      "league": "nba",
+      "name": "Miami Heat at LA Clippers",
+      "date": "2026-11-05T03:30Z",
+      "status": "Wed, November 4th at 10:30 PM EST",
+      "venue": "Intuit Dome",
+      "home": {
+        "name": "LA Clippers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGD0wKSkoYVg"
+      },
+      "away": {
+        "name": "Miami Heat",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQISkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909934",
+      "league": "nba",
+      "name": "Los Angeles Lakers at Sacramento Kings",
+      "date": "2026-11-05T03:00Z",
+      "status": "Wed, November 4th at 10:00 PM EST",
+      "venue": "Golden 1 Center",
+      "home": {
+        "name": "Sacramento Kings",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGEEwKSkoYVg"
+      },
+      "away": {
+        "name": "Los Angeles Lakers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGD0wFSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909933",
+      "league": "nba",
+      "name": "Dallas Mavericks at San Antonio Spurs",
+      "date": "2026-11-05T02:30Z",
+      "status": "Wed, November 4th at 9:30 PM EST",
+      "venue": "Frost Bank Center",
+      "home": {
+        "name": "San Antonio Spurs",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGEExHFFQR"
+      },
+      "away": {
+        "name": "Dallas Mavericks",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGB0wFSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909931",
+      "league": "nba",
+      "name": "Toronto Raptors at Denver Nuggets",
+      "date": "2026-11-05T02:00Z",
+      "status": "Wed, November 4th at 9:00 PM EST",
+      "venue": "Ball Arena",
+      "home": {
+        "name": "Denver Nuggets",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGB0gHSkoYVg"
+      },
+      "away": {
+        "name": "Toronto Raptors",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGF0IbSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909932",
+      "league": "nba",
+      "name": "Portland Trail Blazers at Phoenix Suns",
+      "date": "2026-11-05T02:00Z",
+      "status": "Wed, November 4th at 9:00 PM EST",
+      "venue": "Mortgage Matchup Center",
+      "home": {
+        "name": "Phoenix Suns",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0URSkoYVg"
+      },
+      "away": {
+        "name": "Portland Trail Blazers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0IbSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909930",
+      "league": "nba",
+      "name": "Minnesota Timberwolves at Houston Rockets",
+      "date": "2026-11-05T01:30Z",
+      "status": "Wed, November 4th at 8:30 PM EST",
+      "venue": "Toyota Center (Houston)",
+      "home": {
+        "name": "Houston Rockets",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGC0IcSkoYVg"
+      },
+      "away": {
+        "name": "Minnesota Timberwolves",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQHSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909927",
+      "league": "nba",
+      "name": "Indiana Pacers at Memphis Grizzlies",
+      "date": "2026-11-05T01:00Z",
+      "status": "Wed, November 4th at 8:00 PM EST",
+      "venue": "FedExForum",
+      "home": {
+        "name": "Memphis Grizzlies",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkgESkoYVg"
+      },
+      "away": {
+        "name": "Indiana Pacers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGCkMNSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909928",
+      "league": "nba",
+      "name": "Utah Jazz at New Orleans Pelicans",
+      "date": "2026-11-05T01:00Z",
+      "status": "Wed, November 4th at 8:00 PM EST",
+      "venue": "Smoothie King Center",
+      "home": {
+        "name": "New Orleans Pelicans",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDUJHFFQR"
+      },
+      "away": {
+        "name": "Utah Jazz",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGFlkIDBQGX10"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909929",
+      "league": "nba",
+      "name": "Cleveland Cavaliers at Oklahoma City Thunder",
+      "date": "2026-11-05T01:00Z",
+      "status": "Wed, November 4th at 8:00 PM EST",
+      "venue": "Paycom Center",
+      "home": {
+        "name": "Oklahoma City Thunder",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDEYKSkoYVg"
+      },
+      "away": {
+        "name": "Cleveland Cavaliers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAEEMSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909924",
+      "league": "nba",
+      "name": "Milwaukee Bucks at Boston Celtics",
+      "date": "2026-11-05T00:30Z",
+      "status": "Wed, November 4th at 7:30 PM EST",
+      "venue": "TD Garden",
+      "home": {
+        "name": "Boston Celtics",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAUIaSkoYVg"
+      },
+      "away": {
+        "name": "Milwaukee Bucks",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQFSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909925",
+      "league": "nba",
+      "name": "Charlotte Hornets at Brooklyn Nets",
+      "date": "2026-11-05T00:30Z",
+      "status": "Wed, November 4th at 7:30 PM EST",
+      "venue": "Barclays Center",
+      "home": {
+        "name": "Brooklyn Nets",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAUYHSkoYVg"
+      },
+      "away": {
+        "name": "Charlotte Hornets",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAEUISkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909926",
+      "league": "nba",
+      "name": "Chicago Bulls at New York Knicks",
+      "date": "2026-11-05T00:30Z",
+      "status": "Wed, November 4th at 7:30 PM EST",
+      "venue": "Madison Square Garden",
+      "home": {
+        "name": "New York Knicks",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDVRHFFQR"
+      },
+      "away": {
+        "name": "Chicago Bulls",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAEUASkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909922",
+      "league": "nba",
+      "name": "Philadelphia 76ers at Detroit Pistons",
+      "date": "2026-11-05T00:00Z",
+      "status": "Wed, November 4th at 7:00 PM EST",
+      "venue": "Little Caesars Arena",
+      "home": {
+        "name": "Detroit Pistons",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGB0gdSkoYVg"
+      },
+      "away": {
+        "name": "Philadelphia 76ers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0UASkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909923",
+      "league": "nba",
+      "name": "Atlanta Hawks at Washington Wizards",
+      "date": "2026-11-05T00:00Z",
+      "status": "Wed, November 4th at 7:00 PM EST",
+      "venue": "Capital One Arena",
+      "home": {
+        "name": "Washington Wizards",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGFF4BSkoYVg"
+      },
+      "away": {
+        "name": "Atlanta Hawks",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAlkFSkoYVg"
       },
       "periods": []
     },
