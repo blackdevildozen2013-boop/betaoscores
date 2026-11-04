@@ -1,7 +1,292 @@
 {
   "configured": true,
-  "generatedAt": "2026-11-03T19:28:27.339766Z",
+  "generatedAt": "2026-11-04T13:21:55.540193Z",
   "games": [
+    {
+      "id": "401873051",
+      "league": "nfl",
+      "name": "Buffalo Bills at Minnesota Vikings",
+      "date": "2026-11-10T01:15Z",
+      "status": "Mon, November 9th at 8:15 PM EST",
+      "venue": "U.S. Bank Stadium",
+      "home": {
+        "name": "Minnesota Vikings",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGDkQHSkoYVg"
+      },
+      "away": {
+        "name": "Buffalo Bills",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAVgPSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401873050",
+      "league": "nfl",
+      "name": "Tampa Bay Buccaneers at Chicago Bears",
+      "date": "2026-11-09T01:20Z",
+      "status": "Sun, November 8th at 8:20 PM EST",
+      "venue": "Soldier Field",
+      "home": {
+        "name": "Chicago Bears",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAEUASkoYVg"
+      },
+      "away": {
+        "name": "Tampa Bay Buccaneers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGF09HFFQR"
+      },
+      "periods": []
+    },
+    {
+      "id": "401873049",
+      "league": "nfl",
+      "name": "Green Bay Packers at New England Patriots",
+      "date": "2026-11-08T21:25Z",
+      "status": "Sun, November 8th at 4:25 PM EST",
+      "venue": "Gillette Stadium",
+      "home": {
+        "name": "New England Patriots",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGDUhHFFQR"
+      },
+      "away": {
+        "name": "Green Bay Packers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGBE9HFFQR"
+      },
+      "periods": []
+    },
+    {
+      "id": "401873047",
+      "league": "nfl",
+      "name": "Las Vegas Raiders at San Francisco 49ers",
+      "date": "2026-11-08T21:25Z",
+      "status": "Sun, November 8th at 4:25 PM EST",
+      "venue": "Levi's Stadium",
+      "home": {
+        "name": "San Francisco 49ers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGEEtHFFQR"
+      },
+      "away": {
+        "name": "Las Vegas Raiders",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGD1tHFFQR"
+      },
+      "periods": []
+    },
+    {
+      "id": "401873048",
+      "league": "nfl",
+      "name": "Arizona Cardinals at Seattle Seahawks",
+      "date": "2026-11-08T21:25Z",
+      "status": "Sun, November 8th at 4:25 PM EST",
+      "venue": "Lumen Field",
+      "home": {
+        "name": "Seattle Seahawks",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGEEgISkoYVg"
+      },
+      "away": {
+        "name": "Arizona Cardinals",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAl8ASkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401873046",
+      "league": "nfl",
+      "name": "Houston Texans at Los Angeles Chargers",
+      "date": "2026-11-08T21:05Z",
+      "status": "Sun, November 8th at 4:05 PM EST",
+      "venue": "SoFi Stadium",
+      "home": {
+        "name": "Los Angeles Chargers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGD0wKSkoYVg"
+      },
+      "away": {
+        "name": "Houston Texans",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGC0IcSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401873040",
+      "league": "nfl",
+      "name": "Dallas Cowboys at Indianapolis Colts",
+      "date": "2026-11-08T18:00Z",
+      "status": "Sun, November 8th at 1:00 PM EST",
+      "venue": "Lucas Oil Stadium",
+      "home": {
+        "name": "Indianapolis Colts",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGCkMNSkoYVg"
+      },
+      "away": {
+        "name": "Dallas Cowboys",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGB0wFSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401873045",
+      "league": "nfl",
+      "name": "New York Jets at Kansas City Chiefs",
+      "date": "2026-11-08T18:00Z",
+      "status": "Sun, November 8th at 1:00 PM EST",
+      "venue": "Arrowhead Stadium",
+      "home": {
+        "name": "Kansas City Chiefs",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGCE5HFFQR"
+      },
+      "away": {
+        "name": "New York Jets",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGDVQDSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401873042",
+      "league": "nfl",
+      "name": "Detroit Lions at Miami Dolphins",
+      "date": "2026-11-08T18:00Z",
+      "status": "Sun, November 8th at 1:00 PM EST",
+      "venue": "Hard Rock Stadium",
+      "home": {
+        "name": "Miami Dolphins",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGDkQISkoYVg"
+      },
+      "away": {
+        "name": "Detroit Lions",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGB0gdSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401873039",
+      "league": "nfl",
+      "name": "Cleveland Browns at New Orleans Saints",
+      "date": "2026-11-08T18:00Z",
+      "status": "Sun, November 8th at 1:00 PM EST",
+      "venue": "Caesars Superdome",
+      "home": {
+        "name": "New Orleans Saints",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGDUJHFFQR"
+      },
+      "away": {
+        "name": "Cleveland Browns",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAEEMSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401873044",
+      "league": "nfl",
+      "name": "New York Giants at Philadelphia Eagles",
+      "date": "2026-11-08T18:00Z",
+      "status": "Sun, November 8th at 1:00 PM EST",
+      "venue": "Lincoln Financial Field",
+      "home": {
+        "name": "Philadelphia Eagles",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGE0UASkoYVg"
+      },
+      "away": {
+        "name": "New York Giants",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGDVQOSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401873043",
+      "league": "nfl",
+      "name": "Los Angeles Rams at Washington Commanders",
+      "date": "2026-11-08T18:00Z",
+      "status": "Sun, November 8th at 1:00 PM EST",
+      "venue": "Northwest Stadium",
+      "home": {
+        "name": "Washington Commanders",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGFF4BSkoYVg"
+      },
+      "away": {
+        "name": "Los Angeles Rams",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGD0wbSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401873041",
+      "league": "nfl",
+      "name": "Denver Broncos at Carolina Panthers",
+      "date": "2026-11-08T18:00Z",
+      "status": "Sun, November 8th at 1:00 PM EST",
+      "venue": "Bank of America Stadium",
+      "home": {
+        "name": "Carolina Panthers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAEwbSkoYVg"
+      },
+      "away": {
+        "name": "Denver Broncos",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGB0gHSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401873038",
+      "league": "nfl",
+      "name": "Cincinnati Bengals at Atlanta Falcons",
+      "date": "2026-11-08T14:30Z",
+      "status": "Sun, November 8th at 9:30 AM EST",
+      "venue": "Santiago Bernabéu",
+      "home": {
+        "name": "Atlanta Falcons",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAlkFSkoYVg"
+      },
+      "away": {
+        "name": "Cincinnati Bengals",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAEQHSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401873037",
+      "league": "nfl",
+      "name": "Jacksonville Jaguars at Baltimore Ravens",
+      "date": "2026-11-06T01:15Z",
+      "status": "Thu, November 5th at 8:15 PM EST",
+      "venue": "M&T Bank Stadium",
+      "home": {
+        "name": "Baltimore Ravens",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAUwFSkoYVg"
+      },
+      "away": {
+        "name": "Jacksonville Jaguars",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGCUwRSkoYVg"
+      },
+      "periods": []
+    },
     {
       "id": "401873036",
       "league": "nfl",
