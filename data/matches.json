@@ -1,6 +1,6 @@
 {
   "configured": true,
-  "generatedAt": "2026-11-05T13:35:15.426588Z",
+  "generatedAt": "2026-11-05T19:54:40.365040Z",
   "games": [
     {
       "id": "401873051",
@@ -550,6 +550,44 @@
         "name": "Carolina Panthers",
         "score": 19,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAEwbSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909937",
+      "league": "nba",
+      "name": "Miami Heat at Golden State Warriors",
+      "date": "2026-11-06T03:00Z",
+      "status": "Thu, November 5th at 10:00 PM EST",
+      "venue": "Chase Center",
+      "home": {
+        "name": "Golden State Warriors",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGBF5HFFQR"
+      },
+      "away": {
+        "name": "Miami Heat",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQISkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909936",
+      "league": "nba",
+      "name": "Orlando Magic at Phoenix Suns",
+      "date": "2026-11-06T02:00Z",
+      "status": "Thu, November 5th at 9:00 PM EST",
+      "venue": "Mortgage Matchup Center",
+      "home": {
+        "name": "Phoenix Suns",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0URSkoYVg"
+      },
+      "away": {
+        "name": "Orlando Magic",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDF8FSkoYVg"
       },
       "periods": []
     },
