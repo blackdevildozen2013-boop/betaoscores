@@ -1,6 +1,6 @@
 {
   "configured": true,
-  "generatedAt": "2026-11-06T13:19:58.094554Z",
+  "generatedAt": "2026-11-06T19:21:30.812444Z",
   "games": [
     {
       "id": "401873051",
@@ -550,6 +550,177 @@
         "name": "Carolina Panthers",
         "score": 19,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAEwbSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909294",
+      "league": "nba",
+      "name": "Portland Trail Blazers at Los Angeles Lakers",
+      "date": "2026-11-07T03:00Z",
+      "status": "Fri, November 6th at 10:00 PM EST",
+      "venue": "crypto.com Arena",
+      "home": {
+        "name": "Los Angeles Lakers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGD0wFSkoYVg"
+      },
+      "away": {
+        "name": "Portland Trail Blazers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0IbSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909295",
+      "league": "nba",
+      "name": "San Antonio Spurs at Sacramento Kings",
+      "date": "2026-11-07T03:00Z",
+      "status": "Fri, November 6th at 10:00 PM EST",
+      "venue": "Golden 1 Center",
+      "home": {
+        "name": "Sacramento Kings",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGEEwKSkoYVg"
+      },
+      "away": {
+        "name": "San Antonio Spurs",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGEExHFFQR"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909290",
+      "league": "nba",
+      "name": "Utah Jazz at Dallas Mavericks",
+      "date": "2026-11-07T01:00Z",
+      "status": "Fri, November 6th at 8:00 PM EST",
+      "venue": "American Airlines Center",
+      "home": {
+        "name": "Dallas Mavericks",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGB0wFSkoYVg"
+      },
+      "away": {
+        "name": "Utah Jazz",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGFlkIDBQGX10"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909291",
+      "league": "nba",
+      "name": "Oklahoma City Thunder at Memphis Grizzlies",
+      "date": "2026-11-07T01:00Z",
+      "status": "Fri, November 6th at 8:00 PM EST",
+      "venue": "FedExForum",
+      "home": {
+        "name": "Memphis Grizzlies",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkgESkoYVg"
+      },
+      "away": {
+        "name": "Oklahoma City Thunder",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDEYKSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909292",
+      "league": "nba",
+      "name": "Toronto Raptors at Milwaukee Bucks",
+      "date": "2026-11-07T01:00Z",
+      "status": "Fri, November 6th at 8:00 PM EST",
+      "venue": "Fiserv Forum",
+      "home": {
+        "name": "Milwaukee Bucks",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQFSkoYVg"
+      },
+      "away": {
+        "name": "Toronto Raptors",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGF0IbSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909293",
+      "league": "nba",
+      "name": "Minnesota Timberwolves at New Orleans Pelicans",
+      "date": "2026-11-07T01:00Z",
+      "status": "Fri, November 6th at 8:00 PM EST",
+      "venue": "Smoothie King Center",
+      "home": {
+        "name": "New Orleans Pelicans",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDUJHFFQR"
+      },
+      "away": {
+        "name": "Minnesota Timberwolves",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQHSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909289",
+      "league": "nba",
+      "name": "Philadelphia 76ers at Cleveland Cavaliers",
+      "date": "2026-11-07T00:30Z",
+      "status": "Fri, November 6th at 7:30 PM EST",
+      "venue": "Rocket Arena",
+      "home": {
+        "name": "Cleveland Cavaliers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAEEMSkoYVg"
+      },
+      "away": {
+        "name": "Philadelphia 76ers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0UASkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909287",
+      "league": "nba",
+      "name": "Washington Wizards at Atlanta Hawks",
+      "date": "2026-11-07T00:00Z",
+      "status": "Fri, November 6th at 7:00 PM EST",
+      "venue": "State Farm Arena",
+      "home": {
+        "name": "Atlanta Hawks",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAlkFSkoYVg"
+      },
+      "away": {
+        "name": "Washington Wizards",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGFF4BSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909288",
+      "league": "nba",
+      "name": "Boston Celtics at Charlotte Hornets",
+      "date": "2026-11-07T00:00Z",
+      "status": "Fri, November 6th at 7:00 PM EST",
+      "venue": "Spectrum Center",
+      "home": {
+        "name": "Charlotte Hornets",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAEUISkoYVg"
+      },
+      "away": {
+        "name": "Boston Celtics",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAUIaSkoYVg"
       },
       "periods": []
     },
