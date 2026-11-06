@@ -1,6 +1,6 @@
 {
   "configured": true,
-  "generatedAt": "2026-11-05T19:54:40.365040Z",
+  "generatedAt": "2026-11-06T13:19:58.094554Z",
   "games": [
     {
       "id": "401873051",
@@ -273,16 +273,16 @@
       "league": "nfl",
       "name": "Jacksonville Jaguars at Baltimore Ravens",
       "date": "2026-11-06T01:15Z",
-      "status": "Thu, November 5th at 8:15 PM EST",
+      "status": "Final",
       "venue": "M&T Bank Stadium",
       "home": {
         "name": "Baltimore Ravens",
-        "score": 0,
+        "score": 10,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAUwFSkoYVg"
       },
       "away": {
         "name": "Jacksonville Jaguars",
-        "score": 0,
+        "score": 33,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGCUwRSkoYVg"
       },
       "periods": []
@@ -558,16 +558,16 @@
       "league": "nba",
       "name": "Miami Heat at Golden State Warriors",
       "date": "2026-11-06T03:00Z",
-      "status": "Thu, November 5th at 10:00 PM EST",
+      "status": "Final",
       "venue": "Chase Center",
       "home": {
         "name": "Golden State Warriors",
-        "score": 0,
+        "score": 120,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGBF5HFFQR"
       },
       "away": {
         "name": "Miami Heat",
-        "score": 0,
+        "score": 100,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQISkoYVg"
       },
       "periods": []
@@ -577,16 +577,16 @@
       "league": "nba",
       "name": "Orlando Magic at Phoenix Suns",
       "date": "2026-11-06T02:00Z",
-      "status": "Thu, November 5th at 9:00 PM EST",
+      "status": "Final",
       "venue": "Mortgage Matchup Center",
       "home": {
         "name": "Phoenix Suns",
-        "score": 0,
+        "score": 117,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0URSkoYVg"
       },
       "away": {
         "name": "Orlando Magic",
-        "score": 0,
+        "score": 104,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDF8FSkoYVg"
       },
       "periods": []
