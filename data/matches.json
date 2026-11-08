@@ -1,6 +1,6 @@
 {
   "configured": true,
-  "generatedAt": "2026-11-08T12:18:15.937227Z",
+  "generatedAt": "2026-11-08T17:54:40.159191Z",
   "games": [
     {
       "id": "401873051",
@@ -254,16 +254,16 @@
       "league": "nfl",
       "name": "Cincinnati Bengals at Atlanta Falcons",
       "date": "2026-11-08T14:30Z",
-      "status": "Sun, November 8th at 9:30 AM EST",
+      "status": "Final",
       "venue": "Santiago Bernabéu",
       "home": {
         "name": "Atlanta Falcons",
-        "score": 0,
+        "score": 17,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAlkFSkoYVg"
       },
       "away": {
         "name": "Cincinnati Bengals",
-        "score": 0,
+        "score": 34,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAEQHSkoYVg"
       },
       "periods": []
@@ -550,6 +550,139 @@
         "name": "Carolina Panthers",
         "score": 19,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAEwbSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909950",
+      "league": "nba",
+      "name": "New Orleans Pelicans at LA Clippers",
+      "date": "2026-11-09T02:00Z",
+      "status": "Sun, November 8th at 9:00 PM EST",
+      "venue": "Intuit Dome",
+      "home": {
+        "name": "LA Clippers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGD0wKSkoYVg"
+      },
+      "away": {
+        "name": "New Orleans Pelicans",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDUJHFFQR"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909951",
+      "league": "nba",
+      "name": "Miami Heat at Sacramento Kings",
+      "date": "2026-11-09T02:00Z",
+      "status": "Sun, November 8th at 9:00 PM EST",
+      "venue": "Golden 1 Center",
+      "home": {
+        "name": "Sacramento Kings",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGEEwKSkoYVg"
+      },
+      "away": {
+        "name": "Miami Heat",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQISkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909949",
+      "league": "nba",
+      "name": "Boston Celtics at Milwaukee Bucks",
+      "date": "2026-11-09T01:00Z",
+      "status": "Sun, November 8th at 8:00 PM EST",
+      "venue": "Fiserv Forum",
+      "home": {
+        "name": "Milwaukee Bucks",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQFSkoYVg"
+      },
+      "away": {
+        "name": "Boston Celtics",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAUIaSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909948",
+      "league": "nba",
+      "name": "Brooklyn Nets at Dallas Mavericks",
+      "date": "2026-11-09T00:30Z",
+      "status": "Sun, November 8th at 7:30 PM EST",
+      "venue": "American Airlines Center",
+      "home": {
+        "name": "Dallas Mavericks",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGB0wFSkoYVg"
+      },
+      "away": {
+        "name": "Brooklyn Nets",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAUYHSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909947",
+      "league": "nba",
+      "name": "Utah Jazz at Minnesota Timberwolves",
+      "date": "2026-11-09T00:00Z",
+      "status": "Sun, November 8th at 7:00 PM EST",
+      "venue": "Target Center",
+      "home": {
+        "name": "Minnesota Timberwolves",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQHSkoYVg"
+      },
+      "away": {
+        "name": "Utah Jazz",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGFlkIDBQGX10"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909946",
+      "league": "nba",
+      "name": "Los Angeles Lakers at Detroit Pistons",
+      "date": "2026-11-08T23:00Z",
+      "status": "Sun, November 8th at 6:00 PM EST",
+      "venue": "Little Caesars Arena",
+      "home": {
+        "name": "Detroit Pistons",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGB0gdSkoYVg"
+      },
+      "away": {
+        "name": "Los Angeles Lakers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGD0wFSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909945",
+      "league": "nba",
+      "name": "Philadelphia 76ers at Chicago Bulls",
+      "date": "2026-11-08T20:30Z",
+      "status": "Sun, November 8th at 3:30 PM EST",
+      "venue": "United Center",
+      "home": {
+        "name": "Chicago Bulls",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAEUASkoYVg"
+      },
+      "away": {
+        "name": "Philadelphia 76ers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0UASkoYVg"
       },
       "periods": []
     },
