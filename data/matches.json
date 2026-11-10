@@ -1,22 +1,22 @@
 {
   "configured": true,
-  "generatedAt": "2026-11-09T22:17:50.405591Z",
+  "generatedAt": "2026-11-10T13:51:11.303702Z",
   "games": [
     {
       "id": "401873051",
       "league": "nfl",
       "name": "Buffalo Bills at Minnesota Vikings",
       "date": "2026-11-10T01:15Z",
-      "status": "Mon, November 9th at 8:15 PM EST",
+      "status": "Final",
       "venue": "U.S. Bank Stadium",
       "home": {
         "name": "Minnesota Vikings",
-        "score": 0,
+        "score": 6,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGDkQHSkoYVg"
       },
       "away": {
         "name": "Buffalo Bills",
-        "score": 0,
+        "score": 23,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAVgPSkoYVg"
       },
       "periods": []
@@ -558,16 +558,16 @@
       "league": "nba",
       "name": "New Orleans Pelicans at Golden State Warriors",
       "date": "2026-11-10T03:00Z",
-      "status": "Mon, November 9th at 10:00 PM EST",
+      "status": "Final",
       "venue": "Chase Center",
       "home": {
         "name": "Golden State Warriors",
-        "score": 0,
+        "score": 138,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGBF5HFFQR"
       },
       "away": {
         "name": "New Orleans Pelicans",
-        "score": 0,
+        "score": 87,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDUJHFFQR"
       },
       "periods": []
@@ -577,16 +577,16 @@
       "league": "nba",
       "name": "San Antonio Spurs at Phoenix Suns",
       "date": "2026-11-10T02:00Z",
-      "status": "Mon, November 9th at 9:00 PM EST",
+      "status": "Final",
       "venue": "Mortgage Matchup Center",
       "home": {
         "name": "Phoenix Suns",
-        "score": 0,
+        "score": 96,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0URSkoYVg"
       },
       "away": {
         "name": "San Antonio Spurs",
-        "score": 0,
+        "score": 122,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGEExHFFQR"
       },
       "periods": []
@@ -596,16 +596,16 @@
       "league": "nba",
       "name": "Denver Nuggets at Houston Rockets",
       "date": "2026-11-10T01:30Z",
-      "status": "Mon, November 9th at 8:30 PM EST",
+      "status": "Final",
       "venue": "Toyota Center (Houston)",
       "home": {
         "name": "Houston Rockets",
-        "score": 0,
+        "score": 110,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGC0IcSkoYVg"
       },
       "away": {
         "name": "Denver Nuggets",
-        "score": 0,
+        "score": 100,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGB0gHSkoYVg"
       },
       "periods": []
@@ -615,16 +615,16 @@
       "league": "nba",
       "name": "Indiana Pacers at Dallas Mavericks",
       "date": "2026-11-10T01:00Z",
-      "status": "Mon, November 9th at 8:00 PM EST",
+      "status": "Final",
       "venue": "American Airlines Center",
       "home": {
         "name": "Dallas Mavericks",
-        "score": 0,
+        "score": 125,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGB0wFSkoYVg"
       },
       "away": {
         "name": "Indiana Pacers",
-        "score": 0,
+        "score": 122,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGCkMNSkoYVg"
       },
       "periods": []
@@ -634,16 +634,16 @@
       "league": "nba",
       "name": "Memphis Grizzlies at Toronto Raptors",
       "date": "2026-11-10T00:30Z",
-      "status": "Mon, November 9th at 7:30 PM EST",
+      "status": "Final",
       "venue": "Scotiabank Arena",
       "home": {
         "name": "Toronto Raptors",
-        "score": 0,
+        "score": 102,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGF0IbSkoYVg"
       },
       "away": {
         "name": "Memphis Grizzlies",
-        "score": 0,
+        "score": 118,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkgESkoYVg"
       },
       "periods": []
@@ -653,16 +653,16 @@
       "league": "nba",
       "name": "Los Angeles Lakers at Atlanta Hawks",
       "date": "2026-11-10T00:00Z",
-      "status": "Mon, November 9th at 7:00 PM EST",
+      "status": "Final",
       "venue": "State Farm Arena",
       "home": {
         "name": "Atlanta Hawks",
-        "score": 0,
+        "score": 114,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAlkFSkoYVg"
       },
       "away": {
         "name": "Los Angeles Lakers",
-        "score": 0,
+        "score": 124,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGD0wFSkoYVg"
       },
       "periods": []
@@ -672,16 +672,16 @@
       "league": "nba",
       "name": "Cleveland Cavaliers at Charlotte Hornets",
       "date": "2026-11-10T00:00Z",
-      "status": "Mon, November 9th at 7:00 PM EST",
+      "status": "Final",
       "venue": "Spectrum Center",
       "home": {
         "name": "Charlotte Hornets",
-        "score": 0,
+        "score": 124,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAEUISkoYVg"
       },
       "away": {
         "name": "Cleveland Cavaliers",
-        "score": 0,
+        "score": 112,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAEEMSkoYVg"
       },
       "periods": []
@@ -691,16 +691,16 @@
       "league": "nba",
       "name": "Washington Wizards at Detroit Pistons",
       "date": "2026-11-10T00:00Z",
-      "status": "Mon, November 9th at 7:00 PM EST",
+      "status": "Final",
       "venue": "Little Caesars Arena",
       "home": {
         "name": "Detroit Pistons",
-        "score": 0,
+        "score": 122,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGB0gdSkoYVg"
       },
       "away": {
         "name": "Washington Wizards",
-        "score": 0,
+        "score": 111,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGFF4BSkoYVg"
       },
       "periods": []
