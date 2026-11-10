@@ -1,6 +1,6 @@
 {
   "configured": true,
-  "generatedAt": "2026-11-10T13:51:11.303702Z",
+  "generatedAt": "2026-11-10T19:41:34.479970Z",
   "games": [
     {
       "id": "401873051",
@@ -550,6 +550,120 @@
         "name": "Carolina Panthers",
         "score": 19,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAEwbSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909965",
+      "league": "nba",
+      "name": "Oklahoma City Thunder at Portland Trail Blazers",
+      "date": "2026-11-11T04:00Z",
+      "status": "Tue, November 10th at 11:00 PM EST",
+      "venue": "Moda Center",
+      "home": {
+        "name": "Portland Trail Blazers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0IbSkoYVg"
+      },
+      "away": {
+        "name": "Oklahoma City Thunder",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDEYKSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909964",
+      "league": "nba",
+      "name": "Orlando Magic at Sacramento Kings",
+      "date": "2026-11-11T03:00Z",
+      "status": "Tue, November 10th at 10:00 PM EST",
+      "venue": "Golden 1 Center",
+      "home": {
+        "name": "Sacramento Kings",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGEEwKSkoYVg"
+      },
+      "away": {
+        "name": "Orlando Magic",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDF8FSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909962",
+      "league": "nba",
+      "name": "LA Clippers at Phoenix Suns",
+      "date": "2026-11-11T02:00Z",
+      "status": "Tue, November 10th at 9:00 PM EST",
+      "venue": "Mortgage Matchup Center",
+      "home": {
+        "name": "Phoenix Suns",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0URSkoYVg"
+      },
+      "away": {
+        "name": "LA Clippers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGD0wKSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909963",
+      "league": "nba",
+      "name": "Miami Heat at Utah Jazz",
+      "date": "2026-11-11T02:00Z",
+      "status": "Tue, November 10th at 9:00 PM EST",
+      "venue": "Delta Center",
+      "home": {
+        "name": "Utah Jazz",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGFlkIDBQGX10"
+      },
+      "away": {
+        "name": "Miami Heat",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQISkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909961",
+      "league": "nba",
+      "name": "Boston Celtics at Philadelphia 76ers",
+      "date": "2026-11-11T01:00Z",
+      "status": "Tue, November 10th at 8:00 PM EST",
+      "venue": "Xfinity Mobile Arena",
+      "home": {
+        "name": "Philadelphia 76ers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0UASkoYVg"
+      },
+      "away": {
+        "name": "Boston Celtics",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAUIaSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909960",
+      "league": "nba",
+      "name": "Milwaukee Bucks at New York Knicks",
+      "date": "2026-11-11T00:30Z",
+      "status": "Tue, November 10th at 7:30 PM EST",
+      "venue": "Madison Square Garden",
+      "home": {
+        "name": "New York Knicks",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDVRHFFQR"
+      },
+      "away": {
+        "name": "Milwaukee Bucks",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQFSkoYVg"
       },
       "periods": []
     },
