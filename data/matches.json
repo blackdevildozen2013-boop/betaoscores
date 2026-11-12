@@ -1,6 +1,6 @@
 {
   "configured": true,
-  "generatedAt": "2026-11-12T14:04:37.067789Z",
+  "generatedAt": "2026-11-12T19:52:19.850054Z",
   "games": [
     {
       "id": "401873065",
@@ -816,6 +816,82 @@
         "name": "Carolina Panthers",
         "score": 19,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAEwbSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909979",
+      "league": "nba",
+      "name": "Charlotte Hornets at Phoenix Suns",
+      "date": "2026-11-13T02:00Z",
+      "status": "Thu, November 12th at 9:00 PM EST",
+      "venue": "Mortgage Matchup Center",
+      "home": {
+        "name": "Phoenix Suns",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0URSkoYVg"
+      },
+      "away": {
+        "name": "Charlotte Hornets",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAEUISkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909978",
+      "league": "nba",
+      "name": "Dallas Mavericks at Minnesota Timberwolves",
+      "date": "2026-11-13T01:00Z",
+      "status": "Thu, November 12th at 8:00 PM EST",
+      "venue": "Target Center",
+      "home": {
+        "name": "Minnesota Timberwolves",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQHSkoYVg"
+      },
+      "away": {
+        "name": "Dallas Mavericks",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGB0wFSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909976",
+      "league": "nba",
+      "name": "Toronto Raptors at Philadelphia 76ers",
+      "date": "2026-11-13T00:00Z",
+      "status": "Thu, November 12th at 7:00 PM EST",
+      "venue": "Xfinity Mobile Arena",
+      "home": {
+        "name": "Philadelphia 76ers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0UASkoYVg"
+      },
+      "away": {
+        "name": "Toronto Raptors",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGF0IbSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909977",
+      "league": "nba",
+      "name": "Detroit Pistons at Washington Wizards",
+      "date": "2026-11-13T00:00Z",
+      "status": "Thu, November 12th at 7:00 PM EST",
+      "venue": "Capital One Arena",
+      "home": {
+        "name": "Washington Wizards",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGFF4BSkoYVg"
+      },
+      "away": {
+        "name": "Detroit Pistons",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGB0gdSkoYVg"
       },
       "periods": []
     },
