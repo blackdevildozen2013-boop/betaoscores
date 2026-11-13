@@ -1,6 +1,6 @@
 {
   "configured": true,
-  "generatedAt": "2026-11-12T19:52:19.850054Z",
+  "generatedAt": "2026-11-13T13:29:57.538652Z",
   "games": [
     {
       "id": "401873065",
@@ -254,16 +254,16 @@
       "league": "nfl",
       "name": "Washington Commanders at New York Giants",
       "date": "2026-11-13T01:15Z",
-      "status": "Thu, November 12th at 8:15 PM EST",
+      "status": "Final",
       "venue": "MetLife Stadium",
       "home": {
         "name": "New York Giants",
-        "score": 0,
+        "score": 21,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGDVQOSkoYVg"
       },
       "away": {
         "name": "Washington Commanders",
-        "score": 0,
+        "score": 24,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGFF4BSkoYVg"
       },
       "periods": []
@@ -824,16 +824,16 @@
       "league": "nba",
       "name": "Charlotte Hornets at Phoenix Suns",
       "date": "2026-11-13T02:00Z",
-      "status": "Thu, November 12th at 9:00 PM EST",
+      "status": "Final",
       "venue": "Mortgage Matchup Center",
       "home": {
         "name": "Phoenix Suns",
-        "score": 0,
+        "score": 101,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0URSkoYVg"
       },
       "away": {
         "name": "Charlotte Hornets",
-        "score": 0,
+        "score": 96,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAEUISkoYVg"
       },
       "periods": []
@@ -843,16 +843,16 @@
       "league": "nba",
       "name": "Dallas Mavericks at Minnesota Timberwolves",
       "date": "2026-11-13T01:00Z",
-      "status": "Thu, November 12th at 8:00 PM EST",
+      "status": "Final",
       "venue": "Target Center",
       "home": {
         "name": "Minnesota Timberwolves",
-        "score": 0,
+        "score": 133,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQHSkoYVg"
       },
       "away": {
         "name": "Dallas Mavericks",
-        "score": 0,
+        "score": 94,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGB0wFSkoYVg"
       },
       "periods": []
@@ -862,16 +862,16 @@
       "league": "nba",
       "name": "Toronto Raptors at Philadelphia 76ers",
       "date": "2026-11-13T00:00Z",
-      "status": "Thu, November 12th at 7:00 PM EST",
+      "status": "Final",
       "venue": "Xfinity Mobile Arena",
       "home": {
         "name": "Philadelphia 76ers",
-        "score": 0,
+        "score": 123,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0UASkoYVg"
       },
       "away": {
         "name": "Toronto Raptors",
-        "score": 0,
+        "score": 112,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGF0IbSkoYVg"
       },
       "periods": []
@@ -881,16 +881,16 @@
       "league": "nba",
       "name": "Detroit Pistons at Washington Wizards",
       "date": "2026-11-13T00:00Z",
-      "status": "Thu, November 12th at 7:00 PM EST",
+      "status": "Final/2OT",
       "venue": "Capital One Arena",
       "home": {
         "name": "Washington Wizards",
-        "score": 0,
+        "score": 140,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGFF4BSkoYVg"
       },
       "away": {
         "name": "Detroit Pistons",
-        "score": 0,
+        "score": 144,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGB0gdSkoYVg"
       },
       "periods": []
