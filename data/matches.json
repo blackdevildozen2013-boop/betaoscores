@@ -1,6 +1,6 @@
 {
   "configured": true,
-  "generatedAt": "2026-11-13T19:37:58.476805Z",
+  "generatedAt": "2026-11-14T12:35:47.296185Z",
   "games": [
     {
       "id": "401873065",
@@ -824,16 +824,16 @@
       "league": "nba",
       "name": "Oklahoma City Thunder at LA Clippers",
       "date": "2026-11-14T03:30Z",
-      "status": "Fri, November 13th at 10:30 PM EST",
+      "status": "Final",
       "venue": "Intuit Dome",
       "home": {
         "name": "LA Clippers",
-        "score": 0,
+        "score": 113,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGD0wKSkoYVg"
       },
       "away": {
         "name": "Oklahoma City Thunder",
-        "score": 0,
+        "score": 112,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDEYKSkoYVg"
       },
       "periods": []
@@ -843,16 +843,16 @@
       "league": "nba",
       "name": "Portland Trail Blazers at Sacramento Kings",
       "date": "2026-11-14T03:00Z",
-      "status": "Fri, November 13th at 10:00 PM EST",
+      "status": "Final",
       "venue": "Golden 1 Center",
       "home": {
         "name": "Sacramento Kings",
-        "score": 0,
+        "score": 107,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGEEwKSkoYVg"
       },
       "away": {
         "name": "Portland Trail Blazers",
-        "score": 0,
+        "score": 120,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0IbSkoYVg"
       },
       "periods": []
@@ -862,16 +862,16 @@
       "league": "nba",
       "name": "Golden State Warriors at San Antonio Spurs",
       "date": "2026-11-14T02:30Z",
-      "status": "Fri, November 13th at 9:30 PM EST",
+      "status": "Final",
       "venue": "Frost Bank Center",
       "home": {
         "name": "San Antonio Spurs",
-        "score": 0,
+        "score": 123,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGEExHFFQR"
       },
       "away": {
         "name": "Golden State Warriors",
-        "score": 0,
+        "score": 85,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGBF5HFFQR"
       },
       "periods": []
@@ -881,16 +881,16 @@
       "league": "nba",
       "name": "Utah Jazz at Houston Rockets",
       "date": "2026-11-14T01:30Z",
-      "status": "Fri, November 13th at 8:30 PM EST",
+      "status": "Final",
       "venue": "Toyota Center (Houston)",
       "home": {
         "name": "Houston Rockets",
-        "score": 0,
+        "score": 125,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGC0IcSkoYVg"
       },
       "away": {
         "name": "Utah Jazz",
-        "score": 0,
+        "score": 118,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGFlkIDBQGX10"
       },
       "periods": []
@@ -900,16 +900,16 @@
       "league": "nba",
       "name": "Cleveland Cavaliers at Miami Heat",
       "date": "2026-11-14T01:00Z",
-      "status": "Fri, November 13th at 8:00 PM EST",
+      "status": "Final",
       "venue": "Kaseya Center",
       "home": {
         "name": "Miami Heat",
-        "score": 0,
+        "score": 133,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQISkoYVg"
       },
       "away": {
         "name": "Cleveland Cavaliers",
-        "score": 0,
+        "score": 121,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAEEMSkoYVg"
       },
       "periods": []
@@ -919,16 +919,16 @@
       "league": "nba",
       "name": "Atlanta Hawks at Chicago Bulls",
       "date": "2026-11-14T01:00Z",
-      "status": "Fri, November 13th at 8:00 PM EST",
+      "status": "Final/OT",
       "venue": "United Center",
       "home": {
         "name": "Chicago Bulls",
-        "score": 0,
+        "score": 125,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAEUASkoYVg"
       },
       "away": {
         "name": "Atlanta Hawks",
-        "score": 0,
+        "score": 117,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAlkFSkoYVg"
       },
       "periods": []
@@ -938,16 +938,16 @@
       "league": "nba",
       "name": "Memphis Grizzlies at New Orleans Pelicans",
       "date": "2026-11-14T01:00Z",
-      "status": "Fri, November 13th at 8:00 PM EST",
+      "status": "Final",
       "venue": "Smoothie King Center",
       "home": {
         "name": "New Orleans Pelicans",
-        "score": 0,
+        "score": 111,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDUJHFFQR"
       },
       "away": {
         "name": "Memphis Grizzlies",
-        "score": 0,
+        "score": 142,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkgESkoYVg"
       },
       "periods": []
@@ -957,16 +957,16 @@
       "league": "nba",
       "name": "New York Knicks at Indiana Pacers",
       "date": "2026-11-14T00:00Z",
-      "status": "Fri, November 13th at 7:00 PM EST",
+      "status": "Final",
       "venue": "Gainbridge Fieldhouse",
       "home": {
         "name": "Indiana Pacers",
-        "score": 0,
+        "score": 106,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGCkMNSkoYVg"
       },
       "away": {
         "name": "New York Knicks",
-        "score": 0,
+        "score": 104,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDVRHFFQR"
       },
       "periods": []
@@ -976,16 +976,16 @@
       "league": "nba",
       "name": "Milwaukee Bucks at Orlando Magic",
       "date": "2026-11-14T00:00Z",
-      "status": "Fri, November 13th at 7:00 PM EST",
+      "status": "Final",
       "venue": "Kia Center",
       "home": {
         "name": "Orlando Magic",
-        "score": 0,
+        "score": 107,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDF8FSkoYVg"
       },
       "away": {
         "name": "Milwaukee Bucks",
-        "score": 0,
+        "score": 99,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQFSkoYVg"
       },
       "periods": []
