@@ -1,6 +1,6 @@
 {
   "configured": true,
-  "generatedAt": "2026-11-14T17:58:13.783791Z",
+  "generatedAt": "2026-11-15T13:01:44.076549Z",
   "games": [
     {
       "id": "401873065",
@@ -824,16 +824,16 @@
       "league": "nba",
       "name": "Detroit Pistons at Miami Heat",
       "date": "2026-11-15T01:00Z",
-      "status": "Sat, November 14th at 8:00 PM EST",
+      "status": "Final",
       "venue": "Kaseya Center",
       "home": {
         "name": "Miami Heat",
-        "score": 0,
+        "score": 137,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQISkoYVg"
       },
       "away": {
         "name": "Detroit Pistons",
-        "score": 0,
+        "score": 117,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGB0gdSkoYVg"
       },
       "periods": []
@@ -843,16 +843,16 @@
       "league": "nba",
       "name": "Brooklyn Nets at Memphis Grizzlies",
       "date": "2026-11-15T01:00Z",
-      "status": "Sat, November 14th at 8:00 PM EST",
+      "status": "Final",
       "venue": "FedExForum",
       "home": {
         "name": "Memphis Grizzlies",
-        "score": 0,
+        "score": 129,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkgESkoYVg"
       },
       "away": {
         "name": "Brooklyn Nets",
-        "score": 0,
+        "score": 110,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAUYHSkoYVg"
       },
       "periods": []
@@ -862,16 +862,16 @@
       "league": "nba",
       "name": "Chicago Bulls at Minnesota Timberwolves",
       "date": "2026-11-15T01:00Z",
-      "status": "Sat, November 14th at 8:00 PM EST",
+      "status": "Final",
       "venue": "Target Center",
       "home": {
         "name": "Minnesota Timberwolves",
-        "score": 0,
+        "score": 106,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQHSkoYVg"
       },
       "away": {
         "name": "Chicago Bulls",
-        "score": 0,
+        "score": 117,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAEUASkoYVg"
       },
       "periods": []
@@ -881,16 +881,16 @@
       "league": "nba",
       "name": "Dallas Mavericks at Cleveland Cavaliers",
       "date": "2026-11-15T00:30Z",
-      "status": "Sat, November 14th at 7:30 PM EST",
+      "status": "Final",
       "venue": "Rocket Arena",
       "home": {
         "name": "Cleveland Cavaliers",
-        "score": 0,
+        "score": 127,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAEEMSkoYVg"
       },
       "away": {
         "name": "Dallas Mavericks",
-        "score": 0,
+        "score": 117,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGB0wFSkoYVg"
       },
       "periods": []
@@ -900,16 +900,16 @@
       "league": "nba",
       "name": "Denver Nuggets at New Orleans Pelicans",
       "date": "2026-11-15T00:00Z",
-      "status": "Sat, November 14th at 7:00 PM EST",
+      "status": "Final",
       "venue": "Smoothie King Center",
       "home": {
         "name": "New Orleans Pelicans",
-        "score": 0,
+        "score": 108,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDUJHFFQR"
       },
       "away": {
         "name": "Denver Nuggets",
-        "score": 0,
+        "score": 116,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGB0gHSkoYVg"
       },
       "periods": []
