@@ -1,6 +1,6 @@
 {
   "configured": true,
-  "generatedAt": "2026-11-16T14:05:53.413078Z",
+  "generatedAt": "2026-11-16T21:58:00.600515Z",
   "games": [
     {
       "id": "401873065",
@@ -816,6 +816,158 @@
         "name": "Carolina Panthers",
         "score": 19,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAEwbSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401910001",
+      "league": "nba",
+      "name": "Phoenix Suns at Denver Nuggets",
+      "date": "2026-11-17T02:00Z",
+      "status": "Mon, November 16th at 9:00 PM EST",
+      "venue": "Ball Arena",
+      "home": {
+        "name": "Denver Nuggets",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGB0gHSkoYVg"
+      },
+      "away": {
+        "name": "Phoenix Suns",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0URSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909999",
+      "league": "nba",
+      "name": "Portland Trail Blazers at Minnesota Timberwolves",
+      "date": "2026-11-17T01:00Z",
+      "status": "Mon, November 16th at 8:00 PM EST",
+      "venue": "Target Center",
+      "home": {
+        "name": "Minnesota Timberwolves",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQHSkoYVg"
+      },
+      "away": {
+        "name": "Portland Trail Blazers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0IbSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401910000",
+      "league": "nba",
+      "name": "Golden State Warriors at New Orleans Pelicans",
+      "date": "2026-11-17T01:00Z",
+      "status": "Mon, November 16th at 8:00 PM EST",
+      "venue": "Smoothie King Center",
+      "home": {
+        "name": "New Orleans Pelicans",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDUJHFFQR"
+      },
+      "away": {
+        "name": "Golden State Warriors",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGBF5HFFQR"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909997",
+      "league": "nba",
+      "name": "Philadelphia 76ers at Brooklyn Nets",
+      "date": "2026-11-17T00:30Z",
+      "status": "Mon, November 16th at 7:30 PM EST",
+      "venue": "Barclays Center",
+      "home": {
+        "name": "Brooklyn Nets",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAUYHSkoYVg"
+      },
+      "away": {
+        "name": "Philadelphia 76ers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0UASkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909998",
+      "league": "nba",
+      "name": "Houston Rockets at Miami Heat",
+      "date": "2026-11-17T00:30Z",
+      "status": "Mon, November 16th at 7:30 PM EST",
+      "venue": "Kaseya Center",
+      "home": {
+        "name": "Miami Heat",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQISkoYVg"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGC0IcSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909994",
+      "league": "nba",
+      "name": "Orlando Magic at Boston Celtics",
+      "date": "2026-11-17T00:00Z",
+      "status": "Mon, November 16th at 7:00 PM EST",
+      "venue": "TD Garden",
+      "home": {
+        "name": "Boston Celtics",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAUIaSkoYVg"
+      },
+      "away": {
+        "name": "Orlando Magic",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDF8FSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909995",
+      "league": "nba",
+      "name": "Chicago Bulls at Cleveland Cavaliers",
+      "date": "2026-11-17T00:00Z",
+      "status": "Mon, November 16th at 7:00 PM EST",
+      "venue": "Rocket Arena",
+      "home": {
+        "name": "Cleveland Cavaliers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAEEMSkoYVg"
+      },
+      "away": {
+        "name": "Chicago Bulls",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAEUASkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401909996",
+      "league": "nba",
+      "name": "Memphis Grizzlies at Washington Wizards",
+      "date": "2026-11-17T00:00Z",
+      "status": "Mon, November 16th at 7:00 PM EST",
+      "venue": "Capital One Arena",
+      "home": {
+        "name": "Washington Wizards",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGFF4BSkoYVg"
+      },
+      "away": {
+        "name": "Memphis Grizzlies",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkgESkoYVg"
       },
       "periods": []
     },
