@@ -1,6 +1,6 @@
 {
   "configured": true,
-  "generatedAt": "2026-11-18T14:40:38.973942Z",
+  "generatedAt": "2026-11-18T20:27:10.092326Z",
   "games": [
     {
       "id": "401873078",
@@ -797,6 +797,234 @@
         "name": "Carolina Panthers",
         "score": 19,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAEwbSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401910017",
+      "league": "nba",
+      "name": "Utah Jazz at Los Angeles Lakers",
+      "date": "2026-11-19T03:00Z",
+      "status": "Wed, November 18th at 10:00 PM EST",
+      "venue": "crypto.com Arena",
+      "home": {
+        "name": "Los Angeles Lakers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGD0wFSkoYVg"
+      },
+      "away": {
+        "name": "Utah Jazz",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGFlkIDBQGX10"
+      },
+      "periods": []
+    },
+    {
+      "id": "401910018",
+      "league": "nba",
+      "name": "Phoenix Suns at Sacramento Kings",
+      "date": "2026-11-19T03:00Z",
+      "status": "Wed, November 18th at 10:00 PM EST",
+      "venue": "Golden 1 Center",
+      "home": {
+        "name": "Sacramento Kings",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGEEwKSkoYVg"
+      },
+      "away": {
+        "name": "Phoenix Suns",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0URSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401910015",
+      "league": "nba",
+      "name": "Boston Celtics at Denver Nuggets",
+      "date": "2026-11-19T02:30Z",
+      "status": "Wed, November 18th at 9:30 PM EST",
+      "venue": "Ball Arena",
+      "home": {
+        "name": "Denver Nuggets",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGB0gHSkoYVg"
+      },
+      "away": {
+        "name": "Boston Celtics",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAUIaSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401910013",
+      "league": "nba",
+      "name": "Detroit Pistons at New Orleans Pelicans",
+      "date": "2026-11-19T01:00Z",
+      "status": "Wed, November 18th at 8:00 PM EST",
+      "venue": "Smoothie King Center",
+      "home": {
+        "name": "New Orleans Pelicans",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDUJHFFQR"
+      },
+      "away": {
+        "name": "Detroit Pistons",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGB0gdSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401910014",
+      "league": "nba",
+      "name": "Atlanta Hawks at Oklahoma City Thunder",
+      "date": "2026-11-19T01:00Z",
+      "status": "Wed, November 18th at 8:00 PM EST",
+      "venue": "Paycom Center",
+      "home": {
+        "name": "Oklahoma City Thunder",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDEYKSkoYVg"
+      },
+      "away": {
+        "name": "Atlanta Hawks",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAlkFSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401910016",
+      "league": "nba",
+      "name": "Golden State Warriors at Dallas Mavericks",
+      "date": "2026-11-19T01:00Z",
+      "status": "Wed, November 18th at 8:00 PM EST",
+      "venue": "American Airlines Center",
+      "home": {
+        "name": "Dallas Mavericks",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGB0wFSkoYVg"
+      },
+      "away": {
+        "name": "Golden State Warriors",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGBF5HFFQR"
+      },
+      "periods": []
+    },
+    {
+      "id": "401910011",
+      "league": "nba",
+      "name": "Chicago Bulls at Brooklyn Nets",
+      "date": "2026-11-19T00:30Z",
+      "status": "Wed, November 18th at 7:30 PM EST",
+      "venue": "Barclays Center",
+      "home": {
+        "name": "Brooklyn Nets",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAUYHSkoYVg"
+      },
+      "away": {
+        "name": "Chicago Bulls",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAEUASkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401910012",
+      "league": "nba",
+      "name": "Washington Wizards at Toronto Raptors",
+      "date": "2026-11-19T00:30Z",
+      "status": "Wed, November 18th at 7:30 PM EST",
+      "venue": "Scotiabank Arena",
+      "home": {
+        "name": "Toronto Raptors",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGF0IbSkoYVg"
+      },
+      "away": {
+        "name": "Washington Wizards",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGFF4BSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401910007",
+      "league": "nba",
+      "name": "Memphis Grizzlies at Cleveland Cavaliers",
+      "date": "2026-11-19T00:00Z",
+      "status": "Wed, November 18th at 7:00 PM EST",
+      "venue": "Rocket Arena",
+      "home": {
+        "name": "Cleveland Cavaliers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGAEEMSkoYVg"
+      },
+      "away": {
+        "name": "Memphis Grizzlies",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkgESkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401910008",
+      "league": "nba",
+      "name": "Houston Rockets at Indiana Pacers",
+      "date": "2026-11-19T00:00Z",
+      "status": "Wed, November 18th at 7:00 PM EST",
+      "venue": "Gainbridge Fieldhouse",
+      "home": {
+        "name": "Indiana Pacers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGCkMNSkoYVg"
+      },
+      "away": {
+        "name": "Houston Rockets",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGC0IcSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401910009",
+      "league": "nba",
+      "name": "Milwaukee Bucks at Miami Heat",
+      "date": "2026-11-19T00:00Z",
+      "status": "Wed, November 18th at 7:00 PM EST",
+      "venue": "Kaseya Center",
+      "home": {
+        "name": "Miami Heat",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQISkoYVg"
+      },
+      "away": {
+        "name": "Milwaukee Bucks",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQFSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401910010",
+      "league": "nba",
+      "name": "Philadelphia 76ers at Orlando Magic",
+      "date": "2026-11-19T00:00Z",
+      "status": "Wed, November 18th at 7:00 PM EST",
+      "venue": "Kia Center",
+      "home": {
+        "name": "Orlando Magic",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDF8FSkoYVg"
+      },
+      "away": {
+        "name": "Philadelphia 76ers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0UASkoYVg"
       },
       "periods": []
     },
