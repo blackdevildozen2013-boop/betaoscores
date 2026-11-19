@@ -1,6 +1,6 @@
 {
   "configured": true,
-  "generatedAt": "2026-11-19T14:46:28.893693Z",
+  "generatedAt": "2026-11-19T20:31:20.756400Z",
   "games": [
     {
       "id": "401873078",
@@ -797,6 +797,82 @@
         "name": "Carolina Panthers",
         "score": 19,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGAEwbSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401910019",
+      "league": "nba",
+      "name": "Golden State Warriors at Memphis Grizzlies",
+      "date": "2026-11-20T01:00Z",
+      "status": "Thu, November 19th at 8:00 PM EST",
+      "venue": "FedExForum",
+      "home": {
+        "name": "Memphis Grizzlies",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkgESkoYVg"
+      },
+      "away": {
+        "name": "Golden State Warriors",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGBF5HFFQR"
+      },
+      "periods": []
+    },
+    {
+      "id": "401910020",
+      "league": "nba",
+      "name": "Portland Trail Blazers at Milwaukee Bucks",
+      "date": "2026-11-20T01:00Z",
+      "status": "Thu, November 19th at 8:00 PM EST",
+      "venue": "Fiserv Forum",
+      "home": {
+        "name": "Milwaukee Bucks",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQFSkoYVg"
+      },
+      "away": {
+        "name": "Portland Trail Blazers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGE0IbSkoYVg"
+      },
+      "periods": []
+    },
+    {
+      "id": "401910021",
+      "league": "nba",
+      "name": "New York Knicks at Minnesota Timberwolves",
+      "date": "2026-11-20T01:00Z",
+      "status": "Thu, November 19th at 8:00 PM EST",
+      "venue": "Target Center",
+      "home": {
+        "name": "Minnesota Timberwolves",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDkQHSkoYVg"
+      },
+      "away": {
+        "name": "New York Knicks",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGDVRHFFQR"
+      },
+      "periods": []
+    },
+    {
+      "id": "401910022",
+      "league": "nba",
+      "name": "LA Clippers at San Antonio Spurs",
+      "date": "2026-11-20T01:00Z",
+      "status": "Thu, November 19th at 8:00 PM EST",
+      "venue": "Frost Bank Center",
+      "home": {
+        "name": "San Antonio Spurs",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGEExHFFQR"
+      },
+      "away": {
+        "name": "LA Clippers",
+        "score": 0,
+        "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0DW19AUlxGD0wKSkoYVg"
       },
       "periods": []
     },
