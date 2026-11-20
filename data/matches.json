@@ -3766,6 +3766,7 @@
     }
   ],
   "errors": [
+    "NFL: monthly safety cap reached",
     "NBA: monthly safety cap reached",
     "MLB: monthly safety cap reached"
   ]
