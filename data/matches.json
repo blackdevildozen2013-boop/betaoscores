@@ -1,6 +1,6 @@
 {
   "configured": true,
-  "generatedAt": "2026-11-19T20:31:20.756400Z",
+  "generatedAt": "2026-11-20T14:27:55.264904Z",
   "games": [
     {
       "id": "401873078",
@@ -235,16 +235,16 @@
       "league": "nfl",
       "name": "Indianapolis Colts at Houston Texans",
       "date": "2026-11-20T01:15Z",
-      "status": "Thu, November 19th at 8:15 PM EST",
+      "status": "Final",
       "venue": "Reliant Stadium",
       "home": {
         "name": "Houston Texans",
-        "score": 0,
+        "score": 26,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGC0IcSkoYVg"
       },
       "away": {
         "name": "Indianapolis Colts",
-        "score": 0,
+        "score": 3,
         "logo": "https://realtimesportsapi.com/api/images/proxy?id=GgcVSgNPTUMITUgaFFQVVVQXBVwOHV5LRQBZD1lbBllDXR0HVl9AUlxGCkMNSkoYVg"
       },
       "periods": []
@@ -3765,5 +3765,8 @@
       "periods": []
     }
   ],
-  "errors": []
+  "errors": [
+    "NBA: monthly safety cap reached",
+    "MLB: monthly safety cap reached"
+  ]
 }
